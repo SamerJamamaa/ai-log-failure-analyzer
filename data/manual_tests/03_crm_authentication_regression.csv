@@ -1,0 +1,41 @@
+execution_id,workflow_name,start_time,status,duration_seconds,error_type,error_message,error_code,error_stack_summary,environment,workflow_step,service,endpoint,http_method,http_status,correlation_id,retry_count,application_version,provider
+crm_auth_v1_0000,CRM Synchronization,2026-09-19 03:47:29,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0000,0,3.4.0,salesforce-crm
+crm_auth_v1_0001,CRM Synchronization,2026-09-19 06:46:15,success,3.8,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0001,0,3.4.0,salesforce-crm
+crm_auth_v1_0002,CRM Synchronization,2026-09-19 10:12:40,success,2.77,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0002,0,3.4.0,salesforce-crm
+crm_auth_v1_0003,CRM Synchronization,2026-09-19 16:59:37,success,2.61,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0003,0,3.4.0,salesforce-crm
+crm_auth_v1_0004,CRM Synchronization,2026-09-19 22:43:27,success,3.07,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0004,0,3.4.0,salesforce-crm
+crm_auth_v1_0005,CRM Synchronization,2026-09-20 03:46:48,success,3.76,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0005,0,3.4.0,salesforce-crm
+crm_auth_v1_0006,CRM Synchronization,2026-09-20 07:41:02,success,3.39,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0006,0,3.4.0,salesforce-crm
+crm_auth_v1_0007,CRM Synchronization,2026-09-20 13:26:28,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0007,0,3.4.0,salesforce-crm
+crm_auth_v1_0008,CRM Synchronization,2026-09-20 17:09:32,success,2.6,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0008,0,3.4.0,salesforce-crm
+crm_auth_v1_0009,CRM Synchronization,2026-09-20 20:12:17,success,3.8,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0009,0,3.4.0,salesforce-crm
+crm_auth_v1_0010,CRM Synchronization,2026-09-21 01:33:43,success,2.22,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0010,0,3.4.0,salesforce-crm
+crm_auth_v1_0011,CRM Synchronization,2026-09-21 05:15:36,success,3.41,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0011,0,3.4.0,salesforce-crm
+crm_auth_v1_0012,CRM Synchronization,2026-09-21 10:11:19,success,3.8,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0012,0,3.4.0,salesforce-crm
+crm_auth_v1_0013,CRM Synchronization,2026-09-21 16:20:17,success,2.96,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0013,0,3.4.0,salesforce-crm
+crm_auth_v1_0014,CRM Synchronization,2026-09-21 21:20:01,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0014,0,3.4.0,salesforce-crm
+crm_auth_v1_0015,CRM Synchronization,2026-09-22 00:58:16,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0015,0,3.4.0,salesforce-crm
+crm_auth_v1_0016,CRM Synchronization,2026-09-22 06:37:52,success,2.91,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0016,0,3.4.0,salesforce-crm
+crm_auth_v1_0017,CRM Synchronization,2026-09-22 12:22:09,success,2.74,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0017,0,3.4.0,salesforce-crm
+crm_auth_v1_0018,CRM Synchronization,2026-09-22 15:03:33,success,3.33,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0018,0,3.4.0,salesforce-crm
+crm_auth_v1_0019,CRM Synchronization,2026-09-22 19:53:11,success,3.79,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0019,0,3.4.0,salesforce-crm
+crm_auth_v2_f0000,CRM Synchronization,2026-09-23 00:43:57,failure,2.2,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0000,0,3.5.0,salesforce-crm
+crm_auth_v2_s0000,CRM Synchronization,2026-09-23 03:52:03,success,3.44,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0000,0,3.5.0,salesforce-crm
+crm_auth_v2_s0001,CRM Synchronization,2026-09-23 09:00:02,success,3.8,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0001,0,3.5.0,salesforce-crm
+crm_auth_v2_f0001,CRM Synchronization,2026-09-23 11:44:05,failure,3.44,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0001,0,3.5.0,salesforce-crm
+crm_auth_v2_s0002,CRM Synchronization,2026-09-23 13:01:02,success,2.55,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0002,0,3.5.0,salesforce-crm
+crm_auth_v2_s0003,CRM Synchronization,2026-09-23 18:19:44,success,3.02,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0003,0,3.5.0,salesforce-crm
+crm_auth_v2_f0002,CRM Synchronization,2026-09-23 20:36:13,failure,2.85,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0002,0,3.5.0,salesforce-crm
+crm_auth_v2_s0004,CRM Synchronization,2026-09-24 02:41:21,success,3.8,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0004,0,3.5.0,salesforce-crm
+crm_auth_v2_f0003,CRM Synchronization,2026-09-24 03:31:48,failure,2.92,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0003,0,3.5.0,salesforce-crm
+crm_auth_v2_s0005,CRM Synchronization,2026-09-24 08:26:50,success,3.05,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0005,0,3.5.0,salesforce-crm
+crm_auth_v2_s0006,CRM Synchronization,2026-09-24 14:53:16,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0006,0,3.5.0,salesforce-crm
+crm_auth_v2_f0004,CRM Synchronization,2026-09-24 17:20:03,failure,2.96,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0004,0,3.5.0,salesforce-crm
+crm_auth_v2_s0007,CRM Synchronization,2026-09-24 19:45:55,success,2.58,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0007,0,3.5.0,salesforce-crm
+crm_auth_v2_f0005,CRM Synchronization,2026-09-25 01:28:27,failure,3.8,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0005,0,3.5.0,salesforce-crm
+crm_auth_v2_s0008,CRM Synchronization,2026-09-25 04:49:59,success,2.59,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0008,0,3.5.0,salesforce-crm
+crm_auth_v2_s0009,CRM Synchronization,2026-09-25 08:05:56,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0009,0,3.5.0,salesforce-crm
+crm_auth_v2_f0006,CRM Synchronization,2026-09-25 12:06:35,failure,3.16,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0006,0,3.5.0,salesforce-crm
+crm_auth_v2_s0010,CRM Synchronization,2026-09-25 13:05:11,success,2.97,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0010,0,3.5.0,salesforce-crm
+crm_auth_v2_s0011,CRM Synchronization,2026-09-25 20:49:51,success,2.46,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0011,0,3.5.0,salesforce-crm
+crm_auth_v2_f0007,CRM Synchronization,2026-09-25 21:38:36,failure,2.42,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0007,0,3.5.0,salesforce-crm

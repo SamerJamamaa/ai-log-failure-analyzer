@@ -1,0 +1,243 @@
+execution_id,workflow_name,start_time,status,duration_seconds,error_type,error_message,error_code,error_stack_summary,environment,workflow_step,service,endpoint,http_method,http_status,correlation_id,retry_count,application_version,provider
+n8n-exec-000001,Invoice Auto-Processing,2026-09-16 20:17:46,success,0.901,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-186035,0,1.44.0,postgres
+n8n-exec-000002,Lead Enrichment Pipeline,2026-09-16 22:01:28,success,1.327,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-622325,0,1.44.0,hubspot
+n8n-exec-000003,Lead Enrichment Pipeline,2026-09-16 23:10:19,success,2.012,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-356454,0,1.44.0,hubspot
+n8n-exec-000004,Slack Alert Router,2026-09-16 23:32:00,success,2.248,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-659531,0,1.44.0,slack
+n8n-exec-000005,Customer Onboarding Sync,2026-09-17 00:39:39,success,2.158,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-890752,0,1.42.1,google-sheets
+n8n-exec-000006,Lead Enrichment Pipeline,2026-09-17 02:12:49,failure,18.306,NodeOperationError,Google Sheets node: OAuth2 credentials for 'Google Sheets account (Marketing)' are invalid or have expired,INVALID_CREDENTIALS,"NodeOperationError: The Google Sheets credentials are not valid
+    at GoogleSheetsV2.execute (/usr/lib/n8n/nodes/GoogleSheets/GoogleSheetsV2.node.js:151:15)",production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,401.0,n8n-wf-798755,0,1.44.0,hubspot
+n8n-exec-000007,Invoice Auto-Processing,2026-09-17 03:35:11,success,1.36,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-690480,0,1.44.0,postgres
+n8n-exec-000008,Invoice Auto-Processing,2026-09-17 03:48:26,success,1.075,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-259339,0,1.44.0,postgres
+n8n-exec-000009,Slack Alert Router,2026-09-17 05:41:25,success,0.966,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-965174,0,1.44.0,slack
+n8n-exec-000010,Lead Enrichment Pipeline,2026-09-17 06:53:30,success,0.802,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-967440,0,1.44.0,hubspot
+n8n-exec-000011,Lead Enrichment Pipeline,2026-09-17 07:30:54,success,1.62,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-789412,0,1.44.0,hubspot
+n8n-exec-000012,Slack Alert Router,2026-09-17 08:32:07,failure,14.008,NodeApiError,HubSpot node: 429 Too Many Requests — rate limit exceeded for this app (100 requests per 10 seconds),RATE_LIMIT_EXCEEDED,"NodeApiError: Request failed with status code 429
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:230:9)",production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,429.0,n8n-wf-288825,2,1.44.0,slack
+n8n-exec-000013,Invoice Auto-Processing,2026-09-17 10:00:13,success,2.372,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-835626,0,1.44.0,postgres
+n8n-exec-000014,Invoice Auto-Processing,2026-09-17 11:09:10,success,0.569,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-987311,0,1.44.0,internal
+n8n-exec-000015,Lead Enrichment Pipeline,2026-09-17 11:34:51,success,0.797,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-441639,0,1.44.0,hubspot
+n8n-exec-000016,Lead Enrichment Pipeline,2026-09-17 13:18:20,success,1.194,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-181440,0,1.44.0,hubspot
+n8n-exec-000017,Slack Alert Router,2026-09-17 14:18:23,success,1.226,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-710547,0,1.44.0,slack
+n8n-exec-000018,Invoice Auto-Processing,2026-09-17 15:36:39,success,1.382,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-355229,0,1.44.0,internal
+n8n-exec-000019,Slack Alert Router,2026-09-17 16:19:49,success,1.786,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-342064,0,1.44.0,slack
+n8n-exec-000020,Invoice Auto-Processing,2026-09-17 17:35:40,success,0.751,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-534842,0,1.44.0,internal
+n8n-exec-000021,Invoice Auto-Processing,2026-09-17 18:35:19,success,0.344,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-582546,0,1.44.0,internal
+n8n-exec-000022,Lead Enrichment Pipeline,2026-09-17 19:26:35,success,2.171,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-473718,0,1.44.0,hubspot
+n8n-exec-000023,Invoice Auto-Processing,2026-09-17 20:37:13,success,1.19,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-824136,0,1.44.0,postgres
+n8n-exec-000024,Lead Enrichment Pipeline,2026-09-17 21:45:56,success,1.716,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-383932,0,1.44.0,hubspot
+n8n-exec-000025,Invoice Auto-Processing,2026-09-17 22:26:10,failure,4.465,NodeApiError,Postgres node: connect ECONNREFUSED 10.0.4.22:5432,ECONNREFUSED,"NodeApiError: connect ECONNREFUSED 10.0.4.22:5432
+    at Postgres.execute (/usr/lib/n8n/nodes/Postgres/Postgres.node.js:88:13)",production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-164488,1,1.44.0,internal
+n8n-exec-000026,Customer Onboarding Sync,2026-09-17 23:46:40,success,1.808,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-334604,0,1.42.1,google-sheets
+n8n-exec-000027,Lead Enrichment Pipeline,2026-09-18 00:39:25,success,0.306,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-850850,0,1.44.0,hubspot
+n8n-exec-000028,Invoice Auto-Processing,2026-09-18 01:46:26,success,1.816,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-134796,0,1.44.0,internal
+n8n-exec-000029,Invoice Auto-Processing,2026-09-18 03:00:25,success,0.316,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-768156,0,1.44.0,postgres
+n8n-exec-000030,Customer Onboarding Sync,2026-09-18 04:39:37,success,2.475,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-425092,0,1.42.1,google-sheets
+n8n-exec-000031,Invoice Auto-Processing,2026-09-18 05:40:36,success,0.659,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-929684,0,1.44.0,postgres
+n8n-exec-000032,Slack Alert Router,2026-09-18 06:49:57,success,0.514,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-499346,0,1.44.0,slack
+n8n-exec-000033,Invoice Auto-Processing,2026-09-18 07:05:46,success,2.327,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-456382,0,1.44.0,postgres
+n8n-exec-000034,Invoice Auto-Processing,2026-09-18 08:23:43,success,1.127,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-335687,0,1.44.0,internal
+n8n-exec-000035,Lead Enrichment Pipeline,2026-09-18 10:00:38,success,0.285,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-103493,0,1.44.0,hubspot
+n8n-exec-000036,Slack Alert Router,2026-09-18 11:00:06,success,0.291,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-141497,0,1.44.0,slack
+n8n-exec-000037,Customer Onboarding Sync,2026-09-18 11:43:17,success,0.86,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-116944,0,1.42.1,google-sheets
+n8n-exec-000038,Slack Alert Router,2026-09-18 13:05:19,success,1.604,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-150549,0,1.44.0,slack
+n8n-exec-000039,Invoice Auto-Processing,2026-09-18 14:13:00,success,1.486,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-279650,0,1.44.0,postgres
+n8n-exec-000040,Invoice Auto-Processing,2026-09-18 15:06:12,success,2.294,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-607778,0,1.44.0,internal
+n8n-exec-000041,Invoice Auto-Processing,2026-09-18 16:30:19,success,0.843,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-446947,0,1.44.0,postgres
+n8n-exec-000042,Slack Alert Router,2026-09-18 17:37:47,success,0.575,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-122584,0,1.44.0,slack
+n8n-exec-000043,Slack Alert Router,2026-09-18 18:11:03,success,0.452,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-202879,0,1.44.0,slack
+n8n-exec-000044,Invoice Auto-Processing,2026-09-18 19:52:51,success,1.71,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-381767,0,1.44.0,internal
+n8n-exec-000045,Invoice Auto-Processing,2026-09-18 20:39:13,success,2.286,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-329109,0,1.44.0,internal
+n8n-exec-000046,Invoice Auto-Processing,2026-09-18 21:55:34,success,0.881,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-824618,0,1.44.0,internal
+n8n-exec-000047,Invoice Auto-Processing,2026-09-18 23:07:03,success,2.315,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-486574,0,1.44.0,internal
+n8n-exec-000048,Slack Alert Router,2026-09-19 00:18:03,success,0.762,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-484608,0,1.44.0,slack
+n8n-exec-000049,Slack Alert Router,2026-09-19 01:10:00,success,2.471,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-736469,0,1.44.0,slack
+n8n-exec-000050,Invoice Auto-Processing,2026-09-19 02:11:10,failure,19.627,NodeOperationError,Google Sheets node: OAuth2 credentials for 'Google Sheets account (Marketing)' are invalid or have expired,INVALID_CREDENTIALS,"NodeOperationError: The Google Sheets credentials are not valid
+    at GoogleSheetsV2.execute (/usr/lib/n8n/nodes/GoogleSheets/GoogleSheetsV2.node.js:151:15)",production,Postgres - Insert Invoice,n8n-worker,internal:query,,401.0,n8n-wf-673328,0,1.44.0,postgres
+n8n-exec-000051,Slack Alert Router,2026-09-19 02:50:47,success,0.707,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-983232,0,1.44.0,slack
+n8n-exec-000052,Customer Onboarding Sync,2026-09-19 04:34:25,success,0.986,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-142889,0,1.42.1,google-sheets
+n8n-exec-000053,Lead Enrichment Pipeline,2026-09-19 04:58:11,success,0.475,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-995453,0,1.44.0,hubspot
+n8n-exec-000054,Customer Onboarding Sync,2026-09-19 06:29:18,success,0.857,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-471837,0,1.42.1,google-sheets
+n8n-exec-000055,Slack Alert Router,2026-09-19 07:11:08,success,1.301,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-635077,0,1.44.0,slack
+n8n-exec-000056,Customer Onboarding Sync,2026-09-19 08:12:53,success,1.778,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-187510,0,1.42.1,google-sheets
+n8n-exec-000057,Lead Enrichment Pipeline,2026-09-19 09:55:13,failure,13.692,NodeApiError,HubSpot node: request timed out after 30000ms while calling https://api.hubapi.com/crm/v3/objects/contacts,ETIMEDOUT,"NodeApiError: ETIMEDOUT
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:214:11)",production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,504.0,n8n-wf-877067,2,1.44.0,hubspot
+n8n-exec-000058,Invoice Auto-Processing,2026-09-19 10:35:11,success,0.468,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-617946,0,1.44.0,internal
+n8n-exec-000059,Slack Alert Router,2026-09-19 12:06:34,success,0.874,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-433498,0,1.44.0,slack
+n8n-exec-000060,Lead Enrichment Pipeline,2026-09-19 13:02:53,success,2.4,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-338752,0,1.44.0,hubspot
+n8n-exec-000061,Slack Alert Router,2026-09-19 14:01:14,success,2.301,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-394393,0,1.44.0,slack
+n8n-exec-000062,Slack Alert Router,2026-09-19 15:14:16,success,1.727,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-548662,0,1.44.0,slack
+n8n-exec-000063,Invoice Auto-Processing,2026-09-19 16:16:52,success,0.499,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-392894,0,1.44.0,postgres
+n8n-exec-000064,Lead Enrichment Pipeline,2026-09-19 17:19:52,success,1.47,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-568813,0,1.44.0,hubspot
+n8n-exec-000065,Invoice Auto-Processing,2026-09-19 18:27:02,success,1.056,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-791761,0,1.44.0,postgres
+n8n-exec-000066,Invoice Auto-Processing,2026-09-19 19:41:54,success,0.207,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-563711,0,1.44.0,internal
+n8n-exec-000067,Invoice Auto-Processing,2026-09-19 20:35:49,success,0.872,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-829608,0,1.44.0,internal
+n8n-exec-000068,Invoice Auto-Processing,2026-09-19 21:52:58,success,1.452,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-696283,0,1.44.0,internal
+n8n-exec-000069,Slack Alert Router,2026-09-19 22:32:54,failure,8.423,NodeApiError,HubSpot node: request timed out after 30000ms while calling https://api.hubapi.com/crm/v3/objects/contacts,ETIMEDOUT,"NodeApiError: ETIMEDOUT
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:214:11)",production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,504.0,n8n-wf-505237,1,1.44.0,slack
+n8n-exec-000070,Invoice Auto-Processing,2026-09-19 23:53:28,success,2.395,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-632193,0,1.44.0,internal
+n8n-exec-000071,Lead Enrichment Pipeline,2026-09-20 01:09:15,success,1.747,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-527645,0,1.44.0,hubspot
+n8n-exec-000072,Lead Enrichment Pipeline,2026-09-20 02:02:15,success,0.552,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-696703,0,1.44.0,hubspot
+n8n-exec-000073,Customer Onboarding Sync,2026-09-20 03:11:23,failure,8.968,NodeOperationError,"Code node: Unexpected token '<', ""<html>..."" is not valid JSON at position 0",JSON_PARSE_ERROR,"SyntaxError: Unexpected token < in JSON at position 0
+    at Code.execute (/usr/lib/n8n/nodes/Code/Code.node.js:97:22)",production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,,n8n-wf-313051,0,1.42.1,google-sheets
+n8n-exec-000074,Customer Onboarding Sync,2026-09-20 04:03:35,success,1.252,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-452037,0,1.42.1,google-sheets
+n8n-exec-000075,Invoice Auto-Processing,2026-09-20 05:08:24,success,1.512,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-853685,0,1.44.0,postgres
+n8n-exec-000076,Customer Onboarding Sync,2026-09-20 06:03:19,success,2.453,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-764540,0,1.42.1,google-sheets
+n8n-exec-000077,Invoice Auto-Processing,2026-09-20 07:31:02,success,1.52,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-164045,0,1.44.0,internal
+n8n-exec-000078,Slack Alert Router,2026-09-20 08:16:27,success,2.484,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-727054,0,1.44.0,slack
+n8n-exec-000079,Invoice Auto-Processing,2026-09-20 10:09:40,success,1.59,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-375438,0,1.44.0,internal
+n8n-exec-000080,Invoice Auto-Processing,2026-09-20 10:33:50,success,2.109,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-540672,0,1.44.0,internal
+n8n-exec-000081,Customer Onboarding Sync,2026-09-20 12:12:02,failure,20.368,WorkflowActivationError,Could not register webhook: the configured URL returned HTTP 500 during handshake,WEBHOOK_REGISTRATION_FAILED,"WorkflowActivationError: Webhook registration failed
+    at ActiveWorkflowRunner.add (/usr/lib/n8n/dist/ActiveWorkflowRunner.js:342:11)",production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,500.0,n8n-wf-210803,0,1.42.1,google-sheets
+n8n-exec-000082,Invoice Auto-Processing,2026-09-20 12:35:26,success,1.404,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-467637,0,1.44.0,postgres
+n8n-exec-000083,Customer Onboarding Sync,2026-09-20 14:16:29,success,2.435,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-900887,0,1.42.1,google-sheets
+n8n-exec-000084,Customer Onboarding Sync,2026-09-20 14:45:21,success,1.471,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-123405,0,1.42.1,google-sheets
+n8n-exec-000085,Slack Alert Router,2026-09-20 16:18:20,failure,21.489,NodeApiError,HubSpot node: request timed out after 30000ms while calling https://api.hubapi.com/crm/v3/objects/contacts,ETIMEDOUT,"NodeApiError: ETIMEDOUT
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:214:11)",production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,504.0,n8n-wf-980939,1,1.44.0,slack
+n8n-exec-000086,Slack Alert Router,2026-09-20 17:32:35,failure,17.67,NodeApiError,HubSpot node: request timed out after 30000ms while calling https://api.hubapi.com/crm/v3/objects/contacts,ETIMEDOUT,"NodeApiError: ETIMEDOUT
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:214:11)",production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,504.0,n8n-wf-972567,1,1.44.0,slack
+n8n-exec-000087,Invoice Auto-Processing,2026-09-20 18:43:49,success,0.698,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-946697,0,1.44.0,postgres
+n8n-exec-000088,Invoice Auto-Processing,2026-09-20 19:37:50,success,1.484,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-697469,0,1.44.0,internal
+n8n-exec-000089,Invoice Auto-Processing,2026-09-20 20:31:25,success,0.476,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-265960,0,1.44.0,internal
+n8n-exec-000090,Invoice Auto-Processing,2026-09-20 21:56:35,success,0.511,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-855324,0,1.44.0,postgres
+n8n-exec-000091,Slack Alert Router,2026-09-20 22:25:22,success,0.449,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-810840,0,1.44.0,slack
+n8n-exec-000092,Slack Alert Router,2026-09-20 23:28:56,success,1.57,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-755321,0,1.44.0,slack
+n8n-exec-000093,Lead Enrichment Pipeline,2026-09-21 00:50:47,success,0.312,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-136388,0,1.44.0,hubspot
+n8n-exec-000094,Invoice Auto-Processing,2026-09-21 02:15:19,success,1.281,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-538651,0,1.44.0,internal
+n8n-exec-000095,Customer Onboarding Sync,2026-09-21 02:54:19,success,1.899,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-578275,0,1.42.1,google-sheets
+n8n-exec-000096,Lead Enrichment Pipeline,2026-09-21 03:59:46,success,1.997,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-456923,0,1.44.0,hubspot
+n8n-exec-000097,Slack Alert Router,2026-09-21 04:55:21,success,1.526,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-391747,0,1.44.0,slack
+n8n-exec-000098,Slack Alert Router,2026-09-21 06:38:05,success,1.093,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-612436,0,1.44.0,slack
+n8n-exec-000099,Customer Onboarding Sync,2026-09-21 07:15:37,success,0.466,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-151863,0,1.42.1,google-sheets
+n8n-exec-000100,Invoice Auto-Processing,2026-09-21 08:48:14,success,1.448,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-560106,0,1.44.0,internal
+n8n-exec-000101,Invoice Auto-Processing,2026-09-21 10:06:00,success,0.907,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-129997,0,1.44.0,internal
+n8n-exec-000102,Lead Enrichment Pipeline,2026-09-21 10:55:06,success,0.465,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-413899,0,1.44.0,hubspot
+n8n-exec-000103,Lead Enrichment Pipeline,2026-09-21 11:35:50,success,0.295,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-162123,0,1.44.0,hubspot
+n8n-exec-000104,Slack Alert Router,2026-09-21 12:33:46,success,1.878,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-286195,0,1.44.0,slack
+n8n-exec-000105,Customer Onboarding Sync,2026-09-21 14:11:52,success,0.33,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-399370,0,1.42.1,google-sheets
+n8n-exec-000106,Slack Alert Router,2026-09-21 14:57:38,success,1.587,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-625371,0,1.44.0,slack
+n8n-exec-000107,Lead Enrichment Pipeline,2026-09-21 16:42:22,success,2.129,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-911041,0,1.44.0,hubspot
+n8n-exec-000108,Slack Alert Router,2026-09-21 17:10:02,failure,21.708,NodeApiError,HubSpot node: 429 Too Many Requests — rate limit exceeded for this app (100 requests per 10 seconds),RATE_LIMIT_EXCEEDED,"NodeApiError: Request failed with status code 429
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:230:9)",production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,429.0,n8n-wf-880968,1,1.44.0,slack
+n8n-exec-000109,Invoice Auto-Processing,2026-09-21 18:53:50,success,1.052,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-486629,0,1.44.0,internal
+n8n-exec-000110,Lead Enrichment Pipeline,2026-09-21 19:07:56,success,1.795,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-880356,0,1.44.0,hubspot
+n8n-exec-000111,Slack Alert Router,2026-09-21 20:20:14,success,1.798,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-200484,0,1.44.0,slack
+n8n-exec-000112,Invoice Auto-Processing,2026-09-21 21:58:38,success,2.17,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-607951,0,1.44.0,postgres
+n8n-exec-000113,Invoice Auto-Processing,2026-09-21 22:46:28,success,0.274,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-254345,0,1.44.0,internal
+n8n-exec-000114,Lead Enrichment Pipeline,2026-09-21 23:29:39,success,1.297,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-747811,0,1.44.0,hubspot
+n8n-exec-000115,Invoice Auto-Processing,2026-09-22 00:37:42,success,1.371,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-569039,0,1.44.0,internal
+n8n-exec-000116,Invoice Auto-Processing,2026-09-22 02:25:43,success,2.225,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-730074,0,1.44.0,postgres
+n8n-exec-000117,Slack Alert Router,2026-09-22 02:52:35,success,0.941,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-641181,0,1.44.0,slack
+n8n-exec-000118,Customer Onboarding Sync,2026-09-22 03:58:48,success,0.424,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-699664,0,1.42.1,google-sheets
+n8n-exec-000119,Customer Onboarding Sync,2026-09-22 05:03:45,success,1.429,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-241411,0,1.42.1,google-sheets
+n8n-exec-000120,Customer Onboarding Sync,2026-09-22 06:29:33,success,1.528,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-815382,0,1.42.1,google-sheets
+n8n-exec-000121,Slack Alert Router,2026-09-22 07:51:59,success,2.118,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-833259,0,1.44.0,slack
+n8n-exec-000122,Slack Alert Router,2026-09-22 08:18:45,failure,2.72,NodeApiError,HubSpot node: 429 Too Many Requests — rate limit exceeded for this app (100 requests per 10 seconds),RATE_LIMIT_EXCEEDED,"NodeApiError: Request failed with status code 429
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:230:9)",production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,429.0,n8n-wf-975354,2,1.44.0,slack
+n8n-exec-000123,Slack Alert Router,2026-09-22 09:21:21,success,1.91,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-654370,0,1.44.0,slack
+n8n-exec-000124,Customer Onboarding Sync,2026-09-22 11:03:22,success,2.383,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-405797,0,1.42.1,google-sheets
+n8n-exec-000125,Lead Enrichment Pipeline,2026-09-22 11:44:42,success,1.409,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-231465,0,1.44.0,hubspot
+n8n-exec-000126,Lead Enrichment Pipeline,2026-09-22 12:57:08,failure,20.073,NodeApiError,HubSpot node: 429 Too Many Requests — rate limit exceeded for this app (100 requests per 10 seconds),RATE_LIMIT_EXCEEDED,"NodeApiError: Request failed with status code 429
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:230:9)",production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,429.0,n8n-wf-212328,2,1.44.0,hubspot
+n8n-exec-000127,Lead Enrichment Pipeline,2026-09-22 14:15:16,success,1.412,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-280215,0,1.44.0,hubspot
+n8n-exec-000128,Slack Alert Router,2026-09-22 14:47:52,failure,8.125,NodeOperationError,Google Sheets node: OAuth2 credentials for 'Google Sheets account (Marketing)' are invalid or have expired,INVALID_CREDENTIALS,"NodeOperationError: The Google Sheets credentials are not valid
+    at GoogleSheetsV2.execute (/usr/lib/n8n/nodes/GoogleSheets/GoogleSheetsV2.node.js:151:15)",production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,401.0,n8n-wf-856192,0,1.44.0,slack
+n8n-exec-000129,Slack Alert Router,2026-09-22 16:03:31,success,0.421,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-750798,0,1.44.0,slack
+n8n-exec-000130,Invoice Auto-Processing,2026-09-22 17:00:25,success,2.232,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-822046,0,1.44.0,postgres
+n8n-exec-000131,Invoice Auto-Processing,2026-09-22 18:28:15,success,1.41,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-820702,0,1.44.0,postgres
+n8n-exec-000132,Lead Enrichment Pipeline,2026-09-22 19:41:08,success,0.444,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-751423,0,1.44.0,hubspot
+n8n-exec-000133,Slack Alert Router,2026-09-22 20:36:33,success,0.739,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-771890,0,1.44.0,slack
+n8n-exec-000134,Invoice Auto-Processing,2026-09-22 21:53:09,success,1.382,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-315841,0,1.44.0,postgres
+n8n-exec-000135,Lead Enrichment Pipeline,2026-09-22 23:15:02,success,0.346,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-808204,0,1.44.0,hubspot
+n8n-exec-000136,Customer Onboarding Sync,2026-09-22 23:36:12,success,0.697,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-757955,0,1.42.1,google-sheets
+n8n-exec-000137,Customer Onboarding Sync,2026-09-23 00:36:03,success,1.154,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-248483,0,1.42.1,google-sheets
+n8n-exec-000138,Customer Onboarding Sync,2026-09-23 02:02:13,success,1.049,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-842651,0,1.42.1,google-sheets
+n8n-exec-000139,Customer Onboarding Sync,2026-09-23 03:27:42,success,1.91,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-131100,0,1.42.1,google-sheets
+n8n-exec-000140,Lead Enrichment Pipeline,2026-09-23 04:18:45,success,0.901,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-267778,0,1.44.0,hubspot
+n8n-exec-000141,Slack Alert Router,2026-09-23 05:21:23,success,2.163,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-247647,0,1.44.0,slack
+n8n-exec-000142,Slack Alert Router,2026-09-23 06:41:16,success,1.008,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-349962,0,1.44.0,slack
+n8n-exec-000143,Slack Alert Router,2026-09-23 07:12:44,success,1.689,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-880128,0,1.44.0,slack
+n8n-exec-000144,Slack Alert Router,2026-09-23 08:57:01,success,1.743,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-472659,0,1.44.0,slack
+n8n-exec-000145,Invoice Auto-Processing,2026-09-23 09:50:05,success,2.176,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-276357,0,1.44.0,internal
+n8n-exec-000146,Customer Onboarding Sync,2026-09-23 10:42:53,success,1.312,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-969592,0,1.42.1,google-sheets
+n8n-exec-000147,Slack Alert Router,2026-09-23 11:47:47,success,2.219,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-835662,0,1.44.0,slack
+n8n-exec-000148,Slack Alert Router,2026-09-23 13:09:17,success,0.751,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-804765,0,1.44.0,slack
+n8n-exec-000149,Slack Alert Router,2026-09-23 14:24:25,success,2.379,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-257796,0,1.44.0,slack
+n8n-exec-000150,Lead Enrichment Pipeline,2026-09-23 15:03:25,success,2.268,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-730262,0,1.44.0,hubspot
+n8n-exec-000151,Invoice Auto-Processing,2026-09-23 16:41:29,success,1.714,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-285823,0,1.44.0,postgres
+n8n-exec-000152,Invoice Auto-Processing,2026-09-23 17:42:21,success,2.251,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-655847,0,1.44.0,internal
+n8n-exec-000153,Lead Enrichment Pipeline,2026-09-23 18:42:53,success,0.495,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-511441,0,1.44.0,hubspot
+n8n-exec-000154,Invoice Auto-Processing,2026-09-23 19:38:22,success,1.95,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-757223,0,1.44.0,internal
+n8n-exec-000155,Lead Enrichment Pipeline,2026-09-23 20:58:06,success,1.922,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-738799,0,1.44.0,hubspot
+n8n-exec-000156,Lead Enrichment Pipeline,2026-09-23 21:28:27,success,1.999,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-986273,0,1.44.0,hubspot
+n8n-exec-000157,Invoice Auto-Processing,2026-09-23 22:54:48,success,1.21,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-998546,0,1.44.0,internal
+n8n-exec-000158,Lead Enrichment Pipeline,2026-09-23 23:52:35,failure,11.707,NodeOperationError,Google Sheets node: OAuth2 credentials for 'Google Sheets account (Marketing)' are invalid or have expired,INVALID_CREDENTIALS,"NodeOperationError: The Google Sheets credentials are not valid
+    at GoogleSheetsV2.execute (/usr/lib/n8n/nodes/GoogleSheets/GoogleSheetsV2.node.js:151:15)",production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,401.0,n8n-wf-442147,0,1.44.0,hubspot
+n8n-exec-000159,Invoice Auto-Processing,2026-09-24 00:45:39,failure,11.076,NodeApiError,HubSpot node: request timed out after 30000ms while calling https://api.hubapi.com/crm/v3/objects/contacts,ETIMEDOUT,"NodeApiError: ETIMEDOUT
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:214:11)",production,Postgres - Insert Invoice,n8n-worker,internal:query,,504.0,n8n-wf-205470,2,1.44.0,postgres
+n8n-exec-000160,Invoice Auto-Processing,2026-09-24 01:48:35,success,0.85,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-541402,0,1.44.0,internal
+n8n-exec-000161,Invoice Auto-Processing,2026-09-24 03:18:39,failure,24.444,NodeApiError,HubSpot node: 429 Too Many Requests — rate limit exceeded for this app (100 requests per 10 seconds),RATE_LIMIT_EXCEEDED,"NodeApiError: Request failed with status code 429
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:230:9)",production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,429.0,n8n-wf-186559,1,1.44.0,internal
+n8n-exec-000162,Invoice Auto-Processing,2026-09-24 04:03:48,success,1.244,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-628533,0,1.44.0,internal
+n8n-exec-000163,Lead Enrichment Pipeline,2026-09-24 05:31:14,success,2.242,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-270608,0,1.44.0,hubspot
+n8n-exec-000164,Slack Alert Router,2026-09-24 06:28:21,success,0.532,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-982711,0,1.44.0,slack
+n8n-exec-000165,Invoice Auto-Processing,2026-09-24 07:37:25,success,0.749,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-967498,0,1.44.0,postgres
+n8n-exec-000166,Invoice Auto-Processing,2026-09-24 08:47:59,success,0.242,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-946787,0,1.44.0,postgres
+n8n-exec-000167,Customer Onboarding Sync,2026-09-24 09:35:07,success,0.871,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-818487,0,1.42.1,google-sheets
+n8n-exec-000168,Invoice Auto-Processing,2026-09-24 11:09:37,success,1.948,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-918601,0,1.44.0,postgres
+n8n-exec-000169,Invoice Auto-Processing,2026-09-24 11:42:05,success,1.021,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-918072,0,1.44.0,postgres
+n8n-exec-000170,Slack Alert Router,2026-09-24 12:44:34,success,1.178,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-713327,0,1.44.0,slack
+n8n-exec-000171,Invoice Auto-Processing,2026-09-24 13:56:50,success,0.466,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-824074,0,1.44.0,postgres
+n8n-exec-000172,Customer Onboarding Sync,2026-09-24 14:47:18,success,2.214,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-375110,0,1.42.1,google-sheets
+n8n-exec-000173,Customer Onboarding Sync,2026-09-24 16:42:15,success,2.094,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-291772,0,1.42.1,google-sheets
+n8n-exec-000174,Invoice Auto-Processing,2026-09-24 17:26:33,success,2.366,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-683603,0,1.44.0,postgres
+n8n-exec-000175,Invoice Auto-Processing,2026-09-24 18:53:34,success,1.023,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-740014,0,1.44.0,postgres
+n8n-exec-000176,Slack Alert Router,2026-09-24 19:38:35,success,2.416,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-972030,0,1.44.0,slack
+n8n-exec-000177,Customer Onboarding Sync,2026-09-24 20:46:54,success,0.445,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-240585,0,1.42.1,google-sheets
+n8n-exec-000178,Invoice Auto-Processing,2026-09-24 21:45:01,success,1.473,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-252374,0,1.44.0,internal
+n8n-exec-000179,Slack Alert Router,2026-09-24 22:49:41,success,0.444,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-170925,0,1.44.0,slack
+n8n-exec-000180,Lead Enrichment Pipeline,2026-09-24 23:37:46,success,0.968,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-230576,0,1.44.0,hubspot
+n8n-exec-000181,Invoice Auto-Processing,2026-09-25 01:21:24,success,2.464,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-931669,0,1.44.0,postgres
+n8n-exec-000182,Invoice Auto-Processing,2026-09-25 01:55:07,success,1.478,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-348285,0,1.44.0,postgres
+n8n-exec-000183,Slack Alert Router,2026-09-25 03:13:35,success,1.87,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-881793,0,1.44.0,slack
+n8n-exec-000184,Invoice Auto-Processing,2026-09-25 03:48:51,success,2.183,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-943767,0,1.44.0,internal
+n8n-exec-000185,Slack Alert Router,2026-09-25 04:56:59,success,0.628,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-561877,0,1.44.0,slack
+n8n-exec-000186,Invoice Auto-Processing,2026-09-25 06:47:55,failure,15.47,NodeApiError,Postgres node: connect ECONNREFUSED 10.0.4.22:5432,ECONNREFUSED,"NodeApiError: connect ECONNREFUSED 10.0.4.22:5432
+    at Postgres.execute (/usr/lib/n8n/nodes/Postgres/Postgres.node.js:88:13)",production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-352758,1,1.44.0,postgres
+n8n-exec-000187,Slack Alert Router,2026-09-25 07:05:15,success,1.703,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-217459,0,1.44.0,slack
+n8n-exec-000188,Customer Onboarding Sync,2026-09-25 08:24:57,success,0.656,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-546658,0,1.42.1,google-sheets
+n8n-exec-000189,Lead Enrichment Pipeline,2026-09-25 09:59:20,success,1.943,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-544331,0,1.44.0,hubspot
+n8n-exec-000190,Invoice Auto-Processing,2026-09-25 10:43:47,success,2.149,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-701522,0,1.44.0,postgres
+n8n-exec-000191,Lead Enrichment Pipeline,2026-09-25 12:13:39,success,2.168,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-731825,0,1.44.0,hubspot
+n8n-exec-000192,Slack Alert Router,2026-09-25 13:19:05,success,0.955,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-352366,0,1.44.0,slack
+n8n-exec-000193,Customer Onboarding Sync,2026-09-25 14:03:03,success,2.256,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-230849,0,1.42.1,google-sheets
+n8n-exec-000194,Lead Enrichment Pipeline,2026-09-25 15:10:16,failure,26.103,NodeApiError,HubSpot node: 429 Too Many Requests — rate limit exceeded for this app (100 requests per 10 seconds),RATE_LIMIT_EXCEEDED,"NodeApiError: Request failed with status code 429
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:230:9)",production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,429.0,n8n-wf-776839,1,1.44.0,hubspot
+n8n-exec-000195,Invoice Auto-Processing,2026-09-25 16:27:25,success,2.345,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-845854,0,1.44.0,internal
+n8n-exec-000196,Invoice Auto-Processing,2026-09-25 17:30:57,success,0.611,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-603307,0,1.44.0,postgres
+n8n-exec-000197,Invoice Auto-Processing,2026-09-25 18:02:53,success,0.726,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-262984,0,1.44.0,internal
+n8n-exec-000198,Invoice Auto-Processing,2026-09-25 19:54:06,success,2.315,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-209284,0,1.44.0,postgres
+n8n-exec-000199,Slack Alert Router,2026-09-25 20:33:13,success,2.433,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-313828,0,1.44.0,slack
+n8n-exec-000200,Invoice Auto-Processing,2026-09-25 21:30:10,failure,7.557,NodeApiError,Slack node: channel_not_found — the channel #ops-alerts-legacy no longer exists,SLACK_CHANNEL_NOT_FOUND,"NodeApiError: channel_not_found
+    at SlackV2.execute (/usr/lib/n8n/nodes/Slack/SlackV2.node.js:176:9)",production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,404.0,n8n-wf-936711,0,1.44.0,internal
+n8n-exec-000201,Invoice Auto-Processing,2026-09-25 23:14:14,success,1.471,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-614548,0,1.44.0,postgres
+n8n-exec-000202,Invoice Auto-Processing,2026-09-26 00:06:45,success,0.25,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-269811,0,1.44.0,internal
+n8n-exec-000203,Invoice Auto-Processing,2026-09-26 00:40:17,success,0.519,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-566064,0,1.44.0,internal
+n8n-exec-000204,Lead Enrichment Pipeline,2026-09-26 01:42:54,success,1.723,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-736040,0,1.44.0,hubspot
+n8n-exec-000205,Invoice Auto-Processing,2026-09-26 03:09:21,success,1.661,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-580177,0,1.44.0,internal
+n8n-exec-000206,Customer Onboarding Sync,2026-09-26 04:21:34,success,1.022,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-149645,0,1.42.1,google-sheets
+n8n-exec-000207,Invoice Auto-Processing,2026-09-26 05:09:05,success,0.946,,,,,production,Postgres - Insert Invoice,n8n-worker,internal:query,,,n8n-wf-808182,0,1.44.0,postgres
+n8n-exec-000208,Lead Enrichment Pipeline,2026-09-26 06:15:56,success,0.413,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-451604,0,1.44.0,hubspot
+n8n-exec-000209,Lead Enrichment Pipeline,2026-09-26 07:06:02,failure,7.792,NodeApiError,Slack node: channel_not_found — the channel #ops-alerts-legacy no longer exists,SLACK_CHANNEL_NOT_FOUND,"NodeApiError: channel_not_found
+    at SlackV2.execute (/usr/lib/n8n/nodes/Slack/SlackV2.node.js:176:9)",production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,404.0,n8n-wf-572175,0,1.44.0,hubspot
+n8n-exec-000210,Invoice Auto-Processing,2026-09-26 08:11:59,success,2.397,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-704809,0,1.44.0,internal
+n8n-exec-000211,Lead Enrichment Pipeline,2026-09-26 09:41:18,success,1.203,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-655453,0,1.44.0,hubspot
+n8n-exec-000212,Customer Onboarding Sync,2026-09-26 10:41:26,success,0.976,,,,,production,Google Sheets - Append Row,n8n-worker,/v4/spreadsheets/{spreadsheetId}/values/Sheet1:append,POST,200.0,n8n-wf-225114,0,1.42.1,google-sheets
+n8n-exec-000213,Invoice Auto-Processing,2026-09-26 11:55:47,success,0.281,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-478576,0,1.44.0,internal
+n8n-exec-000214,Invoice Auto-Processing,2026-09-26 12:34:03,success,0.316,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-630122,0,1.44.0,internal
+n8n-exec-000215,Invoice Auto-Processing,2026-09-26 13:59:18,success,0.261,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-731347,0,1.44.0,internal
+n8n-exec-000216,Invoice Auto-Processing,2026-09-26 14:58:54,success,0.492,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-122635,0,1.44.0,internal
+n8n-exec-000217,Invoice Auto-Processing,2026-09-26 15:57:31,success,1.899,,,,,production,Code - Parse Extracted Fields,n8n-worker,internal:code-node,,,n8n-wf-146496,0,1.44.0,internal
+n8n-exec-000218,Slack Alert Router,2026-09-26 17:37:54,success,1.454,,,,,production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,200.0,n8n-wf-721294,0,1.44.0,slack
+n8n-exec-000219,Slack Alert Router,2026-09-26 18:13:03,failure,17.235,NodeApiError,HubSpot node: 429 Too Many Requests — rate limit exceeded for this app (100 requests per 10 seconds),RATE_LIMIT_EXCEEDED,"NodeApiError: Request failed with status code 429
+    at HubspotV2.execute (/usr/lib/n8n/nodes/HubspotV2/HubspotV2.node.js:230:9)",production,Slack - Post Message,n8n-worker,/api/chat.postMessage,POST,429.0,n8n-wf-140882,1,1.44.0,slack
+n8n-exec-000220,Lead Enrichment Pipeline,2026-09-26 19:10:55,success,0.957,,,,,production,HubSpot - Upsert Contact,n8n-worker,/crm/v3/objects/contacts,POST,200.0,n8n-wf-861121,0,1.44.0,hubspot

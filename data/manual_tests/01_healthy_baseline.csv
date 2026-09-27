@@ -1,0 +1,79 @@
+execution_id,workflow_name,start_time,status,duration_seconds,error_type,error_message,error_code,error_stack_summary,environment,workflow_step,service,endpoint,http_method,http_status,correlation_id,retry_count,application_version,provider
+healthy_crm_0000,CRM Synchronization,2026-09-19 03:44:09,success,2.2,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10000,0,3.4.0,salesforce-crm
+healthy_wha_0000,WhatsApp Lead Intake,2026-09-19 03:51:50,success,4.96,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00000,0,4.2.0,whatsapp-business-api
+healthy_inv_0000,Invoice Parser,2026-09-19 04:06:43,success,10.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20000,0,2.1.0,internal-llm
+healthy_inv_0001,Invoice Parser,2026-09-19 07:19:36,success,7.55,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20001,0,2.1.0,internal-llm
+healthy_wha_0001,WhatsApp Lead Intake,2026-09-19 07:36:25,success,3.36,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00001,0,4.2.0,whatsapp-business-api
+healthy_crm_0001,CRM Synchronization,2026-09-19 10:08:47,success,2.2,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10001,0,3.4.0,salesforce-crm
+healthy_wha_0002,WhatsApp Lead Intake,2026-09-19 17:55:03,success,4.38,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00002,0,4.2.0,whatsapp-business-api
+healthy_inv_0002,Invoice Parser,2026-09-19 18:32:22,success,6.42,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20002,0,2.1.0,internal-llm
+healthy_crm_0002,CRM Synchronization,2026-09-19 18:36:37,success,2.65,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10002,0,3.4.0,salesforce-crm
+healthy_wha_0003,WhatsApp Lead Intake,2026-09-19 22:03:58,success,3.98,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00003,0,4.2.0,whatsapp-business-api
+healthy_inv_0003,Invoice Parser,2026-09-19 22:38:48,success,8.2,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20003,0,2.1.0,internal-llm
+healthy_crm_0003,CRM Synchronization,2026-09-19 23:39:02,success,3.24,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10003,0,3.4.0,salesforce-crm
+healthy_inv_0004,Invoice Parser,2026-09-20 03:31:31,success,7.12,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20004,0,2.1.0,internal-llm
+healthy_wha_0004,WhatsApp Lead Intake,2026-09-20 06:07:15,success,3.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00004,0,4.2.0,whatsapp-business-api
+healthy_crm_0004,CRM Synchronization,2026-09-20 07:27:19,success,3.8,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10004,0,3.4.0,salesforce-crm
+healthy_wha_0005,WhatsApp Lead Intake,2026-09-20 09:50:37,success,4.08,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00005,0,4.2.0,whatsapp-business-api
+healthy_inv_0005,Invoice Parser,2026-09-20 12:53:16,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20005,0,2.1.0,internal-llm
+healthy_crm_0005,CRM Synchronization,2026-09-20 12:56:58,success,2.95,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10005,0,3.4.0,salesforce-crm
+healthy_crm_0006,CRM Synchronization,2026-09-20 17:39:34,success,3.8,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10006,0,3.4.0,salesforce-crm
+healthy_inv_0006,Invoice Parser,2026-09-20 19:14:16,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20006,0,2.1.0,internal-llm
+healthy_wha_0006,WhatsApp Lead Intake,2026-09-20 21:41:05,success,3.64,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00006,0,4.2.0,whatsapp-business-api
+healthy_crm_0007,CRM Synchronization,2026-09-21 00:13:29,success,3.43,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10007,0,3.4.0,salesforce-crm
+healthy_inv_0007,Invoice Parser,2026-09-21 00:55:31,success,10.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20007,0,2.1.0,internal-llm
+healthy_wha_0007,WhatsApp Lead Intake,2026-09-21 01:23:29,success,3.22,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00007,0,4.2.0,whatsapp-business-api
+healthy_crm_0008,CRM Synchronization,2026-09-21 06:58:26,success,3.27,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10008,0,3.4.0,salesforce-crm
+healthy_wha_0008,WhatsApp Lead Intake,2026-09-21 09:50:53,success,4.59,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00008,0,4.2.0,whatsapp-business-api
+healthy_inv_0008,Invoice Parser,2026-09-21 10:38:30,success,9.14,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20008,0,2.1.0,internal-llm
+healthy_wha_0009,WhatsApp Lead Intake,2026-09-21 15:44:36,success,5.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00009,0,4.2.0,whatsapp-business-api
+healthy_crm_0009,CRM Synchronization,2026-09-21 15:46:06,success,3.32,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10009,0,3.4.0,salesforce-crm
+healthy_inv_0009,Invoice Parser,2026-09-21 17:33:59,success,7.92,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20009,0,2.1.0,internal-llm
+healthy_inv_0010,Invoice Parser,2026-09-21 22:10:13,success,8.85,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20010,0,2.1.0,internal-llm
+healthy_crm_0010,CRM Synchronization,2026-09-21 22:51:36,success,3.16,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10010,0,3.4.0,salesforce-crm
+healthy_wha_0010,WhatsApp Lead Intake,2026-09-22 00:30:16,success,3.97,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00010,0,4.2.0,whatsapp-business-api
+healthy_inv_0011,Invoice Parser,2026-09-22 03:43:44,success,8.46,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20011,0,2.1.0,internal-llm
+healthy_wha_0011,WhatsApp Lead Intake,2026-09-22 03:53:19,success,4.11,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00011,0,4.2.0,whatsapp-business-api
+healthy_crm_0011,CRM Synchronization,2026-09-22 04:01:52,success,3.13,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10011,0,3.4.0,salesforce-crm
+healthy_crm_0012,CRM Synchronization,2026-09-22 10:21:40,success,3.53,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10012,0,3.4.0,salesforce-crm
+healthy_crm_fail,CRM Synchronization,2026-09-22 10:21:40,failure,3.2,TRANSIENT_ERROR,A single transient error occurred.,,,production,sync_contact,crm-sync-service,/contacts,POST,500.0,CORR-healthy-1-fail,0,3.4.0,salesforce-crm
+healthy_inv_0012,Invoice Parser,2026-09-22 11:03:11,success,6.32,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20012,0,2.1.0,internal-llm
+healthy_inv_fail,Invoice Parser,2026-09-22 11:03:11,failure,9.81,TRANSIENT_ERROR,A single transient error occurred.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,500.0,CORR-healthy-2-fail,0,2.1.0,internal-llm
+healthy_wha_0012,WhatsApp Lead Intake,2026-09-22 11:45:15,success,3.26,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00012,0,4.2.0,whatsapp-business-api
+healthy_wha_fail,WhatsApp Lead Intake,2026-09-22 11:45:15,failure,4.15,TRANSIENT_ERROR,A single transient error occurred.,,,production,send_message,messaging-service,/v1/messages,POST,500.0,CORR-healthy-0-fail,0,4.2.0,whatsapp-business-api
+healthy_wha_0013,WhatsApp Lead Intake,2026-09-22 17:09:42,success,5.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00013,0,4.2.0,whatsapp-business-api
+healthy_inv_0013,Invoice Parser,2026-09-22 17:19:22,success,8.54,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20013,0,2.1.0,internal-llm
+healthy_crm_0013,CRM Synchronization,2026-09-22 18:41:03,success,3.8,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10013,0,3.4.0,salesforce-crm
+healthy_inv_0014,Invoice Parser,2026-09-23 01:16:55,success,7.42,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20014,0,2.1.0,internal-llm
+healthy_crm_0014,CRM Synchronization,2026-09-23 03:17:30,success,3.8,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10014,0,3.4.0,salesforce-crm
+healthy_wha_0014,WhatsApp Lead Intake,2026-09-23 03:23:28,success,5.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00014,0,4.2.0,whatsapp-business-api
+healthy_crm_0015,CRM Synchronization,2026-09-23 05:59:59,success,3.48,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10015,0,3.4.0,salesforce-crm
+healthy_wha_0015,WhatsApp Lead Intake,2026-09-23 06:34:02,success,3.1,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00015,0,4.2.0,whatsapp-business-api
+healthy_inv_0015,Invoice Parser,2026-09-23 06:40:43,success,7.48,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20015,0,2.1.0,internal-llm
+healthy_inv_0016,Invoice Parser,2026-09-23 11:48:42,success,8.98,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20016,0,2.1.0,internal-llm
+healthy_crm_0016,CRM Synchronization,2026-09-23 16:08:36,success,3.8,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10016,0,3.4.0,salesforce-crm
+healthy_wha_0016,WhatsApp Lead Intake,2026-09-23 16:32:30,success,4.05,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00016,0,4.2.0,whatsapp-business-api
+healthy_inv_0017,Invoice Parser,2026-09-23 20:34:35,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20017,0,2.1.0,internal-llm
+healthy_wha_0017,WhatsApp Lead Intake,2026-09-23 21:18:03,success,4.15,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00017,0,4.2.0,whatsapp-business-api
+healthy_crm_0017,CRM Synchronization,2026-09-23 21:21:13,success,3.58,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10017,0,3.4.0,salesforce-crm
+healthy_crm_0018,CRM Synchronization,2026-09-24 04:15:01,success,3.67,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10018,0,3.4.0,salesforce-crm
+healthy_wha_0018,WhatsApp Lead Intake,2026-09-24 04:40:38,success,3.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00018,0,4.2.0,whatsapp-business-api
+healthy_inv_0018,Invoice Parser,2026-09-24 05:07:22,success,8.98,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20018,0,2.1.0,internal-llm
+healthy_wha_0019,WhatsApp Lead Intake,2026-09-24 08:17:33,success,3.97,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00019,0,4.2.0,whatsapp-business-api
+healthy_inv_0019,Invoice Parser,2026-09-24 08:53:54,success,8.08,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20019,0,2.1.0,internal-llm
+healthy_crm_0019,CRM Synchronization,2026-09-24 10:35:46,success,3.14,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10019,0,3.4.0,salesforce-crm
+healthy_inv_0020,Invoice Parser,2026-09-24 17:06:14,success,7.47,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20020,0,2.1.0,internal-llm
+healthy_wha_0020,WhatsApp Lead Intake,2026-09-24 17:39:01,success,4.74,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00020,0,4.2.0,whatsapp-business-api
+healthy_crm_0020,CRM Synchronization,2026-09-24 17:41:57,success,3.5,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10020,0,3.4.0,salesforce-crm
+healthy_inv_0021,Invoice Parser,2026-09-24 22:11:27,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20021,0,2.1.0,internal-llm
+healthy_crm_0021,CRM Synchronization,2026-09-24 23:44:58,success,3.8,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10021,0,3.4.0,salesforce-crm
+healthy_wha_0021,WhatsApp Lead Intake,2026-09-25 01:20:00,success,3.65,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00021,0,4.2.0,whatsapp-business-api
+healthy_wha_0022,WhatsApp Lead Intake,2026-09-25 05:25:46,success,3.23,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00022,0,4.2.0,whatsapp-business-api
+healthy_inv_0022,Invoice Parser,2026-09-25 08:17:12,success,8.18,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20022,0,2.1.0,internal-llm
+healthy_crm_0022,CRM Synchronization,2026-09-25 08:21:48,success,2.2,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10022,0,3.4.0,salesforce-crm
+healthy_inv_0023,Invoice Parser,2026-09-25 11:57:00,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20023,0,2.1.0,internal-llm
+healthy_wha_0023,WhatsApp Lead Intake,2026-09-25 13:35:57,success,3.27,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00023,0,4.2.0,whatsapp-business-api
+healthy_crm_0023,CRM Synchronization,2026-09-25 15:37:27,success,2.25,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10023,0,3.4.0,salesforce-crm
+healthy_crm_0024,CRM Synchronization,2026-09-25 17:57:48,success,3.8,,,,,production,sync_contact,crm-sync-service,/contacts,POST,,CORR-healthy-10024,0,3.4.0,salesforce-crm
+healthy_wha_0024,WhatsApp Lead Intake,2026-09-25 18:02:17,success,3.7,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-healthy-00024,0,4.2.0,whatsapp-business-api
+healthy_inv_0024,Invoice Parser,2026-09-25 19:45:34,success,7.18,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-healthy-20024,0,2.1.0,internal-llm

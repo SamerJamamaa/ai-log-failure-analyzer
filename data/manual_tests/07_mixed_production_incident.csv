@@ -1,0 +1,133 @@
+execution_id,workflow_name,start_time,status,duration_seconds,error_type,error_message,error_code,error_stack_summary,environment,workflow_step,service,endpoint,http_method,http_status,correlation_id,retry_count,application_version,provider
+mixed_healthy_0000,Customer Support Classifier,2026-09-19 01:23:56,success,6.13,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0000,0,1.8.0,
+crm_auth_v1_0000,CRM Synchronization,2026-09-19 03:47:29,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0000,0,3.4.0,salesforce-crm
+mixed_healthy_0001,Customer Support Classifier,2026-09-19 06:34:15,success,5.67,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0001,0,1.8.0,
+crm_auth_v1_0001,CRM Synchronization,2026-09-19 06:46:15,success,3.8,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0001,0,3.4.0,salesforce-crm
+crm_auth_v1_0002,CRM Synchronization,2026-09-19 10:12:40,success,2.77,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0002,0,3.4.0,salesforce-crm
+mixed_healthy_0002,Customer Support Classifier,2026-09-19 10:44:59,success,3.99,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0002,0,1.8.0,
+invoice_schema_f0000,Invoice Parser,2026-09-19 10:53:26,failure,9.94,MISSING_REQUIRED_FIELD,Required field 'invoice_number' is missing from the response.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0000,0,2.3.0,internal-llm
+mixed_healthy_0003,Customer Support Classifier,2026-09-19 13:14:54,success,6.48,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0003,0,1.8.0,
+crm_auth_v1_0003,CRM Synchronization,2026-09-19 16:59:37,success,2.61,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0003,0,3.4.0,salesforce-crm
+mixed_healthy_0004,Customer Support Classifier,2026-09-19 19:06:26,success,6.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0004,0,1.8.0,
+invoice_schema_f0001,Invoice Parser,2026-09-19 20:58:22,failure,6.0,MISSING_REQUIRED_FIELD,Required field 'invoice_number' is missing from the response.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0001,0,2.3.0,internal-llm
+crm_auth_v1_0004,CRM Synchronization,2026-09-19 22:43:27,success,3.07,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0004,0,3.4.0,salesforce-crm
+mixed_healthy_0005,Customer Support Classifier,2026-09-19 23:54:07,success,4.66,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0005,0,1.8.0,
+mixed_healthy_0006,Customer Support Classifier,2026-09-20 03:40:57,success,4.14,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0006,0,1.8.0,
+crm_auth_v1_0005,CRM Synchronization,2026-09-20 03:46:48,success,3.76,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0005,0,3.4.0,salesforce-crm
+invoice_schema_f0002,Invoice Parser,2026-09-20 06:13:23,failure,6.79,MISSING_REQUIRED_FIELD,Required field 'invoice_number' is missing from the response.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0002,0,2.3.0,internal-llm
+mixed_healthy_0007,Customer Support Classifier,2026-09-20 06:49:35,success,6.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0007,0,1.8.0,
+crm_auth_v1_0006,CRM Synchronization,2026-09-20 07:41:02,success,3.39,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0006,0,3.4.0,salesforce-crm
+mixed_healthy_0008,Customer Support Classifier,2026-09-20 12:49:37,success,3.86,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0008,0,1.8.0,
+crm_auth_v1_0007,CRM Synchronization,2026-09-20 13:26:28,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0007,0,3.4.0,salesforce-crm
+mixed_healthy_0009,Customer Support Classifier,2026-09-20 16:09:17,success,6.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0009,0,1.8.0,
+crm_auth_v1_0008,CRM Synchronization,2026-09-20 17:09:32,success,2.6,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0008,0,3.4.0,salesforce-crm
+crm_auth_v1_0009,CRM Synchronization,2026-09-20 20:12:17,success,3.8,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0009,0,3.4.0,salesforce-crm
+mixed_healthy_0010,Customer Support Classifier,2026-09-20 20:20:06,success,3.6,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0010,0,1.8.0,
+mixed_healthy_0011,Customer Support Classifier,2026-09-20 22:33:51,success,3.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0011,0,1.8.0,
+invoice_schema_f0003,Invoice Parser,2026-09-21 01:24:47,failure,10.0,MISSING_REQUIRED_FIELD,Required field 'invoice_number' is missing from the response.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0003,0,2.3.0,internal-llm
+crm_auth_v1_0010,CRM Synchronization,2026-09-21 01:33:43,success,2.22,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0010,0,3.4.0,salesforce-crm
+mixed_healthy_0012,Customer Support Classifier,2026-09-21 03:38:53,success,4.74,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0012,0,1.8.0,
+crm_auth_v1_0011,CRM Synchronization,2026-09-21 05:15:36,success,3.41,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0011,0,3.4.0,salesforce-crm
+mixed_healthy_0013,Customer Support Classifier,2026-09-21 07:05:06,success,5.05,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0013,0,1.8.0,
+crm_auth_v1_0012,CRM Synchronization,2026-09-21 10:11:19,success,3.8,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0012,0,3.4.0,salesforce-crm
+mixed_healthy_0014,Customer Support Classifier,2026-09-21 12:17:36,success,6.34,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0014,0,1.8.0,
+mixed_healthy_0015,Customer Support Classifier,2026-09-21 15:48:57,success,5.27,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0015,0,1.8.0,
+crm_auth_v1_0013,CRM Synchronization,2026-09-21 16:20:17,success,2.96,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0013,0,3.4.0,salesforce-crm
+invoice_schema_f0004,Invoice Parser,2026-09-21 18:10:57,failure,10.0,MISSING_REQUIRED_FIELD,Required field 'invoice_number' is missing from the response.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0004,0,2.3.0,internal-llm
+crm_auth_v1_0014,CRM Synchronization,2026-09-21 21:20:01,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0014,0,3.4.0,salesforce-crm
+mixed_healthy_0016,Customer Support Classifier,2026-09-21 21:24:02,success,6.28,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0016,0,1.8.0,
+crm_auth_v1_0015,CRM Synchronization,2026-09-22 00:58:16,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0015,0,3.4.0,salesforce-crm
+mixed_healthy_0017,Customer Support Classifier,2026-09-22 02:43:09,success,3.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0017,0,1.8.0,
+invoice_schema_f0005,Invoice Parser,2026-09-22 06:19:08,failure,7.12,INVALID_JSON_SCHEMA,Response JSON has an unexpected nested structure for 'line_items'.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0005,0,2.3.0,internal-llm
+crm_auth_v1_0016,CRM Synchronization,2026-09-22 06:37:52,success,2.91,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0016,0,3.4.0,salesforce-crm
+mixed_healthy_0018,Customer Support Classifier,2026-09-22 06:45:43,success,3.66,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0018,0,1.8.0,
+mixed_healthy_0019,Customer Support Classifier,2026-09-22 10:17:05,success,4.34,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0019,0,1.8.0,
+crm_auth_v1_0017,CRM Synchronization,2026-09-22 12:22:09,success,2.74,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0017,0,3.4.0,salesforce-crm
+mixed_healthy_0020,Customer Support Classifier,2026-09-22 12:40:50,success,6.28,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0020,0,1.8.0,
+crm_auth_v1_0018,CRM Synchronization,2026-09-22 15:03:33,success,3.33,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0018,0,3.4.0,salesforce-crm
+mixed_healthy_0021,Customer Support Classifier,2026-09-22 19:41:31,success,6.01,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0021,0,1.8.0,
+crm_auth_v1_0019,CRM Synchronization,2026-09-22 19:53:11,success,3.79,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v1-0019,0,3.4.0,salesforce-crm
+invoice_schema_f0006,Invoice Parser,2026-09-22 20:17:14,failure,7.11,INVALID_JSON_SCHEMA,Response JSON has an unexpected nested structure for 'line_items'.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0006,0,2.3.0,internal-llm
+mixed_healthy_0022,Customer Support Classifier,2026-09-22 23:14:53,success,4.16,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0022,0,1.8.0,
+crm_auth_v2_f0000,CRM Synchronization,2026-09-23 00:43:57,failure,2.2,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0000,0,3.5.0,salesforce-crm
+mixed_healthy_0023,Customer Support Classifier,2026-09-23 01:08:32,success,4.79,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0023,0,1.8.0,
+crm_auth_v2_s0000,CRM Synchronization,2026-09-23 03:52:03,success,3.44,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0000,0,3.5.0,salesforce-crm
+invoice_schema_f0007,Invoice Parser,2026-09-23 04:52:58,failure,10.0,INVALID_JSON_SCHEMA,Response JSON has an unexpected nested structure for 'line_items'.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0007,0,2.3.0,internal-llm
+mixed_healthy_0024,Customer Support Classifier,2026-09-23 06:02:34,success,3.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0024,0,1.8.0,
+crm_auth_v2_s0001,CRM Synchronization,2026-09-23 09:00:02,success,3.8,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0001,0,3.5.0,salesforce-crm
+crm_auth_v2_f0001,CRM Synchronization,2026-09-23 11:44:05,failure,3.44,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0001,0,3.5.0,salesforce-crm
+mixed_healthy_0025,Customer Support Classifier,2026-09-23 12:06:49,success,3.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0025,0,1.8.0,
+crm_auth_v2_s0002,CRM Synchronization,2026-09-23 13:01:02,success,2.55,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0002,0,3.5.0,salesforce-crm
+mixed_healthy_0026,Customer Support Classifier,2026-09-23 14:34:04,success,3.88,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0026,0,1.8.0,
+crm_auth_v2_s0003,CRM Synchronization,2026-09-23 18:19:44,success,3.02,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0003,0,3.5.0,salesforce-crm
+invoice_schema_f0008,Invoice Parser,2026-09-23 18:51:29,failure,8.63,INVALID_JSON_SCHEMA,Response JSON has an unexpected nested structure for 'line_items'.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0008,0,2.3.0,internal-llm
+mixed_healthy_0027,Customer Support Classifier,2026-09-23 18:58:43,success,6.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0027,0,1.8.0,
+crm_auth_v2_f0002,CRM Synchronization,2026-09-23 20:36:13,failure,2.85,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0002,0,3.5.0,salesforce-crm
+mixed_healthy_0028,Customer Support Classifier,2026-09-23 22:06:29,success,5.62,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0028,0,1.8.0,
+wa_timeout_late_s0000,WhatsApp Lead Intake,2026-09-24 00:16:16,success,4.67,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0000,0,4.5.0,whatsapp-business-api
+wa_timeout_late_s0001,WhatsApp Lead Intake,2026-09-24 02:11:17,success,3.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0001,0,4.5.0,whatsapp-business-api
+crm_auth_v2_s0004,CRM Synchronization,2026-09-24 02:41:21,success,3.8,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0004,0,3.5.0,salesforce-crm
+wa_timeout_late_f0002,WhatsApp Lead Intake,2026-09-24 02:53:55,failure,30.04,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0000,1,4.5.0,whatsapp-business-api
+crm_auth_v2_f0003,CRM Synchronization,2026-09-24 03:31:48,failure,2.92,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0003,0,3.5.0,salesforce-crm
+wa_timeout_late_f0003,WhatsApp Lead Intake,2026-09-24 04:06:20,failure,30.52,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0001,1,4.5.0,whatsapp-business-api
+mixed_healthy_0029,Customer Support Classifier,2026-09-24 05:06:25,success,5.79,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0029,0,1.8.0,
+wa_timeout_late_s0004,WhatsApp Lead Intake,2026-09-24 05:32:29,success,3.21,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0004,0,4.5.0,whatsapp-business-api
+wa_timeout_late_f0005,WhatsApp Lead Intake,2026-09-24 06:59:56,failure,29.7,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0002,1,4.5.0,whatsapp-business-api
+mixed_healthy_0030,Customer Support Classifier,2026-09-24 07:00:06,success,6.49,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0030,0,1.8.0,
+wa_timeout_late_s0006,WhatsApp Lead Intake,2026-09-24 07:27:42,success,3.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0006,0,4.5.0,whatsapp-business-api
+crm_auth_v2_s0005,CRM Synchronization,2026-09-24 08:26:50,success,3.05,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0005,0,3.5.0,salesforce-crm
+invoice_schema_f0009,Invoice Parser,2026-09-24 09:02:16,failure,7.4,TYPE_MISMATCH,Field 'amount' was returned as text instead of a number.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0009,0,2.3.0,internal-llm
+wa_timeout_late_f0007,WhatsApp Lead Intake,2026-09-24 09:23:15,failure,31.35,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0003,1,4.5.0,whatsapp-business-api
+wa_timeout_late_s0008,WhatsApp Lead Intake,2026-09-24 10:09:39,success,4.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0008,0,4.5.0,whatsapp-business-api
+wa_timeout_late_f0009,WhatsApp Lead Intake,2026-09-24 11:28:55,failure,30.43,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0004,1,4.5.0,whatsapp-business-api
+wa_timeout_late_f0010,WhatsApp Lead Intake,2026-09-24 12:47:28,failure,31.18,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0005,1,4.5.0,whatsapp-business-api
+mixed_healthy_0031,Customer Support Classifier,2026-09-24 13:03:13,success,6.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0031,0,1.8.0,
+wa_timeout_late_s0011,WhatsApp Lead Intake,2026-09-24 13:28:26,success,4.04,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0011,0,4.5.0,whatsapp-business-api
+crm_auth_v2_s0006,CRM Synchronization,2026-09-24 14:53:16,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0006,0,3.5.0,salesforce-crm
+wa_timeout_late_f0012,WhatsApp Lead Intake,2026-09-24 15:16:43,failure,31.18,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0006,1,4.5.0,whatsapp-business-api
+wa_timeout_late_s0013,WhatsApp Lead Intake,2026-09-24 15:45:44,success,3.84,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0013,0,4.5.0,whatsapp-business-api
+mixed_healthy_0032,Customer Support Classifier,2026-09-24 16:15:27,success,6.16,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0032,0,1.8.0,
+crm_auth_v2_f0004,CRM Synchronization,2026-09-24 17:20:03,failure,2.96,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0004,0,3.5.0,salesforce-crm
+wa_timeout_late_f0014,WhatsApp Lead Intake,2026-09-24 17:25:38,failure,31.17,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0007,1,4.5.0,whatsapp-business-api
+wa_timeout_late_s0015,WhatsApp Lead Intake,2026-09-24 18:50:04,success,4.09,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0015,0,4.5.0,whatsapp-business-api
+crm_auth_v2_s0007,CRM Synchronization,2026-09-24 19:45:55,success,2.58,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0007,0,3.5.0,salesforce-crm
+wa_timeout_late_f0016,WhatsApp Lead Intake,2026-09-24 20:12:04,failure,29.27,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0008,1,4.5.0,whatsapp-business-api
+wa_timeout_late_f0017,WhatsApp Lead Intake,2026-09-24 21:03:45,failure,29.97,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0009,1,4.5.0,whatsapp-business-api
+mixed_healthy_0033,Customer Support Classifier,2026-09-24 21:28:43,success,6.13,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0033,0,1.8.0,
+wa_timeout_late_s0018,WhatsApp Lead Intake,2026-09-24 21:54:46,success,3.69,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0018,0,4.5.0,whatsapp-business-api
+wa_timeout_late_f0019,WhatsApp Lead Intake,2026-09-24 23:35:47,failure,31.59,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0010,1,4.5.0,whatsapp-business-api
+invoice_schema_f0010,Invoice Parser,2026-09-24 23:55:04,failure,9.17,TYPE_MISMATCH,Field 'amount' was returned as text instead of a number.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0010,0,2.3.0,internal-llm
+mixed_healthy_0034,Customer Support Classifier,2026-09-25 00:05:18,success,6.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0034,0,1.8.0,
+wa_timeout_late_s0020,WhatsApp Lead Intake,2026-09-25 00:32:53,success,3.7,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0020,0,4.5.0,whatsapp-business-api
+crm_auth_v2_f0005,CRM Synchronization,2026-09-25 01:28:27,failure,3.8,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0005,0,3.5.0,salesforce-crm
+wa_timeout_late_f0021,WhatsApp Lead Intake,2026-09-25 02:17:19,failure,30.96,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0011,1,4.5.0,whatsapp-business-api
+wa_timeout_late_s0022,WhatsApp Lead Intake,2026-09-25 03:08:33,success,3.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0022,0,4.5.0,whatsapp-business-api
+wa_timeout_late_f0023,WhatsApp Lead Intake,2026-09-25 03:50:52,failure,30.11,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0012,1,4.5.0,whatsapp-business-api
+crm_auth_v2_s0008,CRM Synchronization,2026-09-25 04:49:59,success,2.59,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0008,0,3.5.0,salesforce-crm
+mixed_healthy_0035,Customer Support Classifier,2026-09-25 05:07:38,success,6.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0035,0,1.8.0,
+wa_timeout_late_f0024,WhatsApp Lead Intake,2026-09-25 05:20:22,failure,31.88,GATEWAY_TIMEOUT,Gateway timeout returned after 30000ms.,,,production,send_message,messaging-service,/v1/messages,POST,504.0,CORR-wa-late-f0013,1,4.5.0,whatsapp-business-api
+wa_timeout_late_s0025,WhatsApp Lead Intake,2026-09-25 06:53:17,success,3.89,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0025,0,4.5.0,whatsapp-business-api
+wa_timeout_late_s0026,WhatsApp Lead Intake,2026-09-25 07:42:29,success,4.34,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0026,0,4.5.0,whatsapp-business-api
+crm_auth_v2_s0009,CRM Synchronization,2026-09-25 08:05:56,success,2.2,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0009,0,3.5.0,salesforce-crm
+wa_timeout_late_s0027,WhatsApp Lead Intake,2026-09-25 08:35:18,success,4.27,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0027,0,4.5.0,whatsapp-business-api
+mixed_healthy_0036,Customer Support Classifier,2026-09-25 08:57:42,success,6.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0036,0,1.8.0,
+wa_timeout_late_s0028,WhatsApp Lead Intake,2026-09-25 09:53:16,success,4.59,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0028,0,4.5.0,whatsapp-business-api
+mixed_healthy_0037,Customer Support Classifier,2026-09-25 11:35:24,success,4.32,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0037,0,1.8.0,
+wa_timeout_late_s0029,WhatsApp Lead Intake,2026-09-25 11:39:34,success,3.66,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0029,0,4.5.0,whatsapp-business-api
+crm_auth_v2_f0006,CRM Synchronization,2026-09-25 12:06:35,failure,3.16,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0006,0,3.5.0,salesforce-crm
+wa_timeout_late_s0030,WhatsApp Lead Intake,2026-09-25 12:30:09,success,4.25,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0030,0,4.5.0,whatsapp-business-api
+crm_auth_v2_s0010,CRM Synchronization,2026-09-25 13:05:11,success,2.97,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0010,0,3.5.0,salesforce-crm
+wa_timeout_late_s0031,WhatsApp Lead Intake,2026-09-25 13:55:44,success,3.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0031,0,4.5.0,whatsapp-business-api
+invoice_schema_f0011,Invoice Parser,2026-09-25 14:32:19,failure,8.3,TYPE_MISMATCH,Field 'amount' was returned as text instead of a number.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0011,0,2.3.0,internal-llm
+wa_timeout_late_s0032,WhatsApp Lead Intake,2026-09-25 15:23:39,success,5.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0032,0,4.5.0,whatsapp-business-api
+wa_timeout_late_s0033,WhatsApp Lead Intake,2026-09-25 16:09:36,success,4.18,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0033,0,4.5.0,whatsapp-business-api
+mixed_healthy_0038,Customer Support Classifier,2026-09-25 17:09:11,success,4.73,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0038,0,1.8.0,
+wa_timeout_late_s0034,WhatsApp Lead Intake,2026-09-25 17:47:06,success,3.25,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0034,0,4.5.0,whatsapp-business-api
+wa_timeout_late_s0035,WhatsApp Lead Intake,2026-09-25 18:50:03,success,3.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0035,0,4.5.0,whatsapp-business-api
+wa_timeout_late_s0036,WhatsApp Lead Intake,2026-09-25 20:07:52,success,4.83,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0036,0,4.5.0,whatsapp-business-api
+wa_timeout_late_s0037,WhatsApp Lead Intake,2026-09-25 20:34:33,success,3.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0037,0,4.5.0,whatsapp-business-api
+mixed_healthy_0039,Customer Support Classifier,2026-09-25 20:36:17,success,3.5,,,,,production,classify_ticket,support-classifier-service,,,,CORR-mixed-healthy-0039,0,1.8.0,
+crm_auth_v2_s0011,CRM Synchronization,2026-09-25 20:49:51,success,2.46,,,,,production,authenticate,crm-sync-service,/oauth/token,POST,,CORR-crm-v2-0011,0,3.5.0,salesforce-crm
+crm_auth_v2_f0007,CRM Synchronization,2026-09-25 21:38:36,failure,2.42,AUTHENTICATION_ERROR,Authentication with the upstream service failed (401 Unauthorized).,,,production,authenticate,crm-sync-service,/oauth/token,POST,401.0,CORR-crm-v2-f0007,0,3.5.0,salesforce-crm
+wa_timeout_late_s0038,WhatsApp Lead Intake,2026-09-25 21:57:37,success,5.0,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0038,0,4.5.0,whatsapp-business-api
+wa_timeout_late_s0039,WhatsApp Lead Intake,2026-09-25 23:16:00,success,3.41,,,,,production,send_message,messaging-service,/v1/messages,POST,,CORR-wa-late-0039,0,4.5.0,whatsapp-business-api

@@ -1,0 +1,71 @@
+execution_id,workflow_name,start_time,status,duration_seconds,error_type,error_message,error_code,error_stack_summary,environment,workflow_step,service,endpoint,http_method,http_status,correlation_id,retry_count,application_version,provider
+invoice_schema_s0000,Invoice Parser,2026-09-19 00:11:38,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0000,0,2.3.0,internal-llm
+invoice_schema_s0001,Invoice Parser,2026-09-19 04:45:45,success,8.65,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0001,0,2.3.0,internal-llm
+invoice_schema_s0002,Invoice Parser,2026-09-19 07:09:41,success,8.3,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0002,0,2.3.0,internal-llm
+invoice_schema_s0003,Invoice Parser,2026-09-19 10:08:57,success,9.69,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0003,0,2.3.0,internal-llm
+invoice_schema_f0000,Invoice Parser,2026-09-19 10:53:26,failure,9.94,MISSING_REQUIRED_FIELD,Required field 'invoice_number' is missing from the response.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0000,0,2.3.0,internal-llm
+invoice_schema_s0004,Invoice Parser,2026-09-19 13:09:29,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0004,0,2.3.0,internal-llm
+invoice_schema_s0005,Invoice Parser,2026-09-19 14:46:59,success,7.94,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0005,0,2.3.0,internal-llm
+invoice_schema_s0006,Invoice Parser,2026-09-19 19:29:32,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0006,0,2.3.0,internal-llm
+invoice_schema_f0001,Invoice Parser,2026-09-19 20:58:22,failure,6.0,MISSING_REQUIRED_FIELD,Required field 'invoice_number' is missing from the response.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0001,0,2.3.0,internal-llm
+invoice_schema_s0007,Invoice Parser,2026-09-19 21:33:41,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0007,0,2.3.0,internal-llm
+invoice_schema_s0008,Invoice Parser,2026-09-20 00:00:30,success,10.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0008,0,2.3.0,internal-llm
+invoice_schema_s0009,Invoice Parser,2026-09-20 02:23:29,success,8.97,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0009,0,2.3.0,internal-llm
+invoice_schema_f0002,Invoice Parser,2026-09-20 06:13:23,failure,6.79,MISSING_REQUIRED_FIELD,Required field 'invoice_number' is missing from the response.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0002,0,2.3.0,internal-llm
+invoice_schema_s0010,Invoice Parser,2026-09-20 06:58:28,success,10.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0010,0,2.3.0,internal-llm
+invoice_schema_s0011,Invoice Parser,2026-09-20 09:56:14,success,8.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0011,0,2.3.0,internal-llm
+invoice_schema_s0012,Invoice Parser,2026-09-20 12:48:02,success,9.79,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0012,0,2.3.0,internal-llm
+invoice_schema_s0013,Invoice Parser,2026-09-20 14:16:40,success,6.05,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0013,0,2.3.0,internal-llm
+invoice_schema_s0014,Invoice Parser,2026-09-20 18:11:55,success,8.56,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0014,0,2.3.0,internal-llm
+invoice_schema_s0015,Invoice Parser,2026-09-20 21:45:29,success,8.1,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0015,0,2.3.0,internal-llm
+invoice_schema_s0016,Invoice Parser,2026-09-20 23:27:12,success,8.83,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0016,0,2.3.0,internal-llm
+invoice_schema_f0003,Invoice Parser,2026-09-21 01:24:47,failure,10.0,MISSING_REQUIRED_FIELD,Required field 'invoice_number' is missing from the response.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0003,0,2.3.0,internal-llm
+invoice_schema_s0017,Invoice Parser,2026-09-21 02:23:07,success,7.07,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0017,0,2.3.0,internal-llm
+invoice_schema_s0018,Invoice Parser,2026-09-21 04:20:44,success,7.22,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0018,0,2.3.0,internal-llm
+invoice_schema_s0019,Invoice Parser,2026-09-21 08:23:14,success,7.84,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0019,0,2.3.0,internal-llm
+invoice_schema_s0020,Invoice Parser,2026-09-21 12:05:35,success,6.75,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0020,0,2.3.0,internal-llm
+invoice_schema_s0021,Invoice Parser,2026-09-21 13:39:20,success,9.24,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0021,0,2.3.0,internal-llm
+invoice_schema_s0022,Invoice Parser,2026-09-21 15:52:04,success,9.92,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0022,0,2.3.0,internal-llm
+invoice_schema_f0004,Invoice Parser,2026-09-21 18:10:57,failure,10.0,MISSING_REQUIRED_FIELD,Required field 'invoice_number' is missing from the response.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0004,0,2.3.0,internal-llm
+invoice_schema_s0023,Invoice Parser,2026-09-21 19:24:57,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0023,0,2.3.0,internal-llm
+invoice_schema_s0024,Invoice Parser,2026-09-21 22:35:00,success,10.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0024,0,2.3.0,internal-llm
+invoice_schema_s0025,Invoice Parser,2026-09-22 02:23:57,success,6.31,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0025,0,2.3.0,internal-llm
+invoice_schema_s0026,Invoice Parser,2026-09-22 03:50:57,success,8.01,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0026,0,2.3.0,internal-llm
+invoice_schema_f0005,Invoice Parser,2026-09-22 06:19:08,failure,7.12,INVALID_JSON_SCHEMA,Response JSON has an unexpected nested structure for 'line_items'.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0005,0,2.3.0,internal-llm
+invoice_schema_s0027,Invoice Parser,2026-09-22 08:20:03,success,8.23,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0027,0,2.3.0,internal-llm
+invoice_schema_s0028,Invoice Parser,2026-09-22 10:47:39,success,7.01,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0028,0,2.3.0,internal-llm
+invoice_schema_s0029,Invoice Parser,2026-09-22 12:35:36,success,10.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0029,0,2.3.0,internal-llm
+invoice_schema_s0030,Invoice Parser,2026-09-22 15:34:27,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0030,0,2.3.0,internal-llm
+invoice_schema_s0031,Invoice Parser,2026-09-22 19:56:41,success,7.81,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0031,0,2.3.0,internal-llm
+invoice_schema_f0006,Invoice Parser,2026-09-22 20:17:14,failure,7.11,INVALID_JSON_SCHEMA,Response JSON has an unexpected nested structure for 'line_items'.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0006,0,2.3.0,internal-llm
+invoice_schema_s0032,Invoice Parser,2026-09-22 20:50:56,success,9.01,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0032,0,2.3.0,internal-llm
+invoice_schema_s0033,Invoice Parser,2026-09-23 00:37:40,success,10.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0033,0,2.3.0,internal-llm
+invoice_schema_s0034,Invoice Parser,2026-09-23 02:50:21,success,6.83,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0034,0,2.3.0,internal-llm
+invoice_schema_f0007,Invoice Parser,2026-09-23 04:52:58,failure,10.0,INVALID_JSON_SCHEMA,Response JSON has an unexpected nested structure for 'line_items'.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0007,0,2.3.0,internal-llm
+invoice_schema_s0035,Invoice Parser,2026-09-23 06:42:48,success,7.76,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0035,0,2.3.0,internal-llm
+invoice_schema_s0036,Invoice Parser,2026-09-23 08:43:17,success,7.78,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0036,0,2.3.0,internal-llm
+invoice_schema_s0037,Invoice Parser,2026-09-23 11:40:16,success,9.84,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0037,0,2.3.0,internal-llm
+invoice_schema_s0038,Invoice Parser,2026-09-23 14:15:52,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0038,0,2.3.0,internal-llm
+invoice_schema_s0039,Invoice Parser,2026-09-23 18:50:50,success,7.17,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0039,0,2.3.0,internal-llm
+invoice_schema_f0008,Invoice Parser,2026-09-23 18:51:29,failure,8.63,INVALID_JSON_SCHEMA,Response JSON has an unexpected nested structure for 'line_items'.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0008,0,2.3.0,internal-llm
+invoice_schema_s0040,Invoice Parser,2026-09-23 21:13:12,success,8.77,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0040,0,2.3.0,internal-llm
+invoice_schema_s0041,Invoice Parser,2026-09-24 00:10:43,success,9.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0041,0,2.3.0,internal-llm
+invoice_schema_s0042,Invoice Parser,2026-09-24 03:13:59,success,9.96,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0042,0,2.3.0,internal-llm
+invoice_schema_s0043,Invoice Parser,2026-09-24 05:27:29,success,8.43,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0043,0,2.3.0,internal-llm
+invoice_schema_s0044,Invoice Parser,2026-09-24 08:30:05,success,6.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0044,0,2.3.0,internal-llm
+invoice_schema_f0009,Invoice Parser,2026-09-24 09:02:16,failure,7.4,TYPE_MISMATCH,Field 'amount' was returned as text instead of a number.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0009,0,2.3.0,internal-llm
+invoice_schema_s0045,Invoice Parser,2026-09-24 10:41:22,success,8.12,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0045,0,2.3.0,internal-llm
+invoice_schema_s0046,Invoice Parser,2026-09-24 15:00:23,success,6.46,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0046,0,2.3.0,internal-llm
+invoice_schema_s0047,Invoice Parser,2026-09-24 16:17:49,success,7.68,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0047,0,2.3.0,internal-llm
+invoice_schema_s0048,Invoice Parser,2026-09-24 20:02:53,success,9.78,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0048,0,2.3.0,internal-llm
+invoice_schema_s0049,Invoice Parser,2026-09-24 23:15:37,success,8.14,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0049,0,2.3.0,internal-llm
+invoice_schema_f0010,Invoice Parser,2026-09-24 23:55:04,failure,9.17,TYPE_MISMATCH,Field 'amount' was returned as text instead of a number.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0010,0,2.3.0,internal-llm
+invoice_schema_s0050,Invoice Parser,2026-09-25 01:42:24,success,7.82,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0050,0,2.3.0,internal-llm
+invoice_schema_s0051,Invoice Parser,2026-09-25 04:10:40,success,6.18,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0051,0,2.3.0,internal-llm
+invoice_schema_s0052,Invoice Parser,2026-09-25 08:53:39,success,7.56,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0052,0,2.3.0,internal-llm
+invoice_schema_s0053,Invoice Parser,2026-09-25 10:59:04,success,10.0,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0053,0,2.3.0,internal-llm
+invoice_schema_s0054,Invoice Parser,2026-09-25 13:05:46,success,9.73,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0054,0,2.3.0,internal-llm
+invoice_schema_f0011,Invoice Parser,2026-09-25 14:32:19,failure,8.3,TYPE_MISMATCH,Field 'amount' was returned as text instead of a number.,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-f0011,0,2.3.0,internal-llm
+invoice_schema_s0055,Invoice Parser,2026-09-25 17:28:45,success,8.77,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0055,0,2.3.0,internal-llm
+invoice_schema_s0056,Invoice Parser,2026-09-25 18:39:47,success,6.87,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0056,0,2.3.0,internal-llm
+invoice_schema_s0057,Invoice Parser,2026-09-25 21:57:55,success,6.97,,,,,production,parse_ai_response,invoice-extraction-service,/extract,POST,,CORR-invoice-s0057,0,2.3.0,internal-llm

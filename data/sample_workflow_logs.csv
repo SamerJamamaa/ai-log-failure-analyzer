@@ -1,0 +1,201 @@
+execution_id,workflow_name,start_time,status,error_type,error_message,duration_seconds
+exec_000001,WhatsApp Lead Intake,2026-09-02 14:04:40,success,,,3.86
+exec_000104,CRM Synchronization,2026-09-02 14:56:47,success,,,2.1
+exec_000056,Invoice Parser,2026-09-02 16:39:36,success,,,5.8
+exec_000149,Customer Support Classifier,2026-09-02 19:24:54,success,,,5.39
+exec_000002,WhatsApp Lead Intake,2026-09-03 03:23:49,success,,,3.83
+exec_000150,Customer Support Classifier,2026-09-03 04:51:06,success,,,6.24
+exec_000105,CRM Synchronization,2026-09-03 05:47:40,success,,,2.88
+exec_000057,Invoice Parser,2026-09-03 06:27:29,success,,,9.54
+exec_000003,WhatsApp Lead Intake,2026-09-03 08:16:05,success,,,3.89
+exec_000058,Invoice Parser,2026-09-03 12:37:40,success,,,10.84
+exec_000151,Customer Support Classifier,2026-09-03 14:42:19,success,,,7.17
+exec_000106,CRM Synchronization,2026-09-03 17:44:06,success,,,4.14
+exec_000004,WhatsApp Lead Intake,2026-09-03 19:13:11,success,,,4.7
+exec_000059,Invoice Parser,2026-09-03 20:16:43,success,,,9.01
+exec_000152,Customer Support Classifier,2026-09-03 21:17:30,success,,,4.93
+exec_000107,CRM Synchronization,2026-09-03 22:21:53,success,,,3.65
+exec_000153,Customer Support Classifier,2026-09-04 03:48:09,success,,,3.32
+exec_000005,WhatsApp Lead Intake,2026-09-04 05:24:26,success,,,3.87
+exec_000060,Invoice Parser,2026-09-04 09:35:43,failure,InvalidJSONSchemaError,Response payload did not match the expected JSON schema.,8.76
+exec_000108,CRM Synchronization,2026-09-04 13:17:09,success,,,3.55
+exec_000154,Customer Support Classifier,2026-09-04 14:56:20,failure,DuplicateRecordError,Record already exists; skipped to avoid duplicate processing.,6.22
+exec_000006,WhatsApp Lead Intake,2026-09-04 14:58:53,success,,,2.5
+exec_000007,WhatsApp Lead Intake,2026-09-04 21:20:11,success,,,4.33
+exec_000061,Invoice Parser,2026-09-04 21:38:03,success,,,9.67
+exec_000155,Customer Support Classifier,2026-09-05 01:54:56,success,,,5.69
+exec_000109,CRM Synchronization,2026-09-05 02:48:27,success,,,1.8
+exec_000008,WhatsApp Lead Intake,2026-09-05 06:22:43,success,,,3.73
+exec_000062,Invoice Parser,2026-09-05 07:14:12,success,,,10.85
+exec_000110,CRM Synchronization,2026-09-05 08:46:12,success,,,3.57
+exec_000156,Customer Support Classifier,2026-09-05 09:57:47,success,,,5.78
+exec_000009,WhatsApp Lead Intake,2026-09-05 11:45:38,success,,,3.78
+exec_000063,Invoice Parser,2026-09-05 12:19:33,success,,,7.81
+exec_000111,CRM Synchronization,2026-09-05 16:48:46,failure,AuthenticationError,Authentication with the upstream service failed (invalid or expired credentials).,4.2
+exec_000157,Customer Support Classifier,2026-09-05 20:12:02,success,,,5.74
+exec_000010,WhatsApp Lead Intake,2026-09-05 23:22:23,success,,,4.12
+exec_000064,Invoice Parser,2026-09-06 01:47:05,success,,,5.15
+exec_000158,Customer Support Classifier,2026-09-06 07:32:00,success,,,3.95
+exec_000011,WhatsApp Lead Intake,2026-09-06 07:40:53,success,,,4.23
+exec_000065,Invoice Parser,2026-09-06 09:22:34,failure,InvalidJSONSchemaError,Response payload did not match the expected JSON schema.,11.0
+exec_000112,CRM Synchronization,2026-09-06 11:27:33,success,,,3.44
+exec_000159,Customer Support Classifier,2026-09-06 13:06:45,failure,DuplicateRecordError,Record already exists; skipped to avoid duplicate processing.,3.55
+exec_000113,CRM Synchronization,2026-09-06 17:20:21,success,,,2.56
+exec_000066,Invoice Parser,2026-09-06 18:05:06,success,,,6.94
+exec_000012,WhatsApp Lead Intake,2026-09-06 19:45:33,success,,,5.16
+exec_000160,Customer Support Classifier,2026-09-06 22:02:45,success,,,6.7
+exec_000013,WhatsApp Lead Intake,2026-09-07 02:21:18,success,,,4.66
+exec_000114,CRM Synchronization,2026-09-07 07:15:22,success,,,2.5
+exec_000161,Customer Support Classifier,2026-09-07 07:18:00,success,,,5.13
+exec_000067,Invoice Parser,2026-09-07 11:38:44,success,,,9.91
+exec_000014,WhatsApp Lead Intake,2026-09-07 12:32:12,failure,APITimeoutError,Request to external API timed out before completion.,3.71
+exec_000115,CRM Synchronization,2026-09-07 17:10:31,success,,,3.0
+exec_000015,WhatsApp Lead Intake,2026-09-07 19:01:16,success,,,4.11
+exec_000162,Customer Support Classifier,2026-09-07 19:10:00,success,,,6.05
+exec_000068,Invoice Parser,2026-09-07 19:26:52,success,,,5.11
+exec_000116,CRM Synchronization,2026-09-08 01:26:51,success,,,4.2
+exec_000016,WhatsApp Lead Intake,2026-09-08 01:56:53,success,,,3.26
+exec_000069,Invoice Parser,2026-09-08 02:41:47,failure,InvalidJSONSchemaError,Response payload did not match the expected JSON schema.,8.23
+exec_000163,Customer Support Classifier,2026-09-08 03:40:06,success,,,6.91
+exec_000164,Customer Support Classifier,2026-09-08 14:24:16,failure,DuplicateRecordError,Record already exists; skipped to avoid duplicate processing.,7.25
+exec_000017,WhatsApp Lead Intake,2026-09-08 15:23:09,success,,,2.99
+exec_000070,Invoice Parser,2026-09-08 16:01:00,success,,,8.07
+exec_000117,CRM Synchronization,2026-09-08 16:50:19,failure,AuthenticationError,Authentication with the upstream service failed (invalid or expired credentials).,2.51
+exec_000165,Customer Support Classifier,2026-09-08 17:40:37,success,,,5.91
+exec_000018,WhatsApp Lead Intake,2026-09-08 23:53:56,success,,,4.25
+exec_000071,Invoice Parser,2026-09-09 02:08:17,success,,,8.51
+exec_000118,CRM Synchronization,2026-09-09 03:09:09,success,,,2.16
+exec_000019,WhatsApp Lead Intake,2026-09-09 05:31:26,success,,,5.31
+exec_000072,Invoice Parser,2026-09-09 05:52:07,success,,,7.37
+exec_000119,CRM Synchronization,2026-09-09 06:26:25,success,,,2.66
+exec_000166,Customer Support Classifier,2026-09-09 06:30:56,success,,,5.43
+exec_000020,WhatsApp Lead Intake,2026-09-09 12:17:43,success,,,4.04
+exec_000120,CRM Synchronization,2026-09-09 16:48:04,success,,,4.09
+exec_000167,Customer Support Classifier,2026-09-09 17:53:15,success,,,7.25
+exec_000073,Invoice Parser,2026-09-09 18:52:31,success,,,9.45
+exec_000021,WhatsApp Lead Intake,2026-09-09 23:55:55,success,,,3.89
+exec_000168,Customer Support Classifier,2026-09-10 03:37:11,success,,,5.37
+exec_000074,Invoice Parser,2026-09-10 04:14:44,failure,DuplicateRecordError,Record already exists; skipped to avoid duplicate processing.,6.97
+exec_000022,WhatsApp Lead Intake,2026-09-10 08:32:39,success,,,4.53
+exec_000169,Customer Support Classifier,2026-09-10 08:36:42,failure,DuplicateRecordError,Record already exists; skipped to avoid duplicate processing.,6.78
+exec_000121,CRM Synchronization,2026-09-10 10:55:48,success,,,2.64
+exec_000075,Invoice Parser,2026-09-10 12:10:41,success,,,9.16
+exec_000122,CRM Synchronization,2026-09-10 17:35:47,success,,,2.71
+exec_000170,Customer Support Classifier,2026-09-10 18:21:55,success,,,4.56
+exec_000023,WhatsApp Lead Intake,2026-09-10 19:12:03,success,,,2.55
+exec_000123,CRM Synchronization,2026-09-11 00:45:13,success,,,3.08
+exec_000024,WhatsApp Lead Intake,2026-09-11 02:42:20,success,,,3.69
+exec_000076,Invoice Parser,2026-09-11 03:46:21,success,,,11.0
+exec_000171,Customer Support Classifier,2026-09-11 07:06:50,success,,,5.17
+exec_000172,Customer Support Classifier,2026-09-11 10:18:42,success,,,7.22
+exec_000025,WhatsApp Lead Intake,2026-09-11 10:48:03,success,,,4.49
+exec_000077,Invoice Parser,2026-09-11 14:44:49,success,,,9.24
+exec_000124,CRM Synchronization,2026-09-11 19:15:02,failure,AuthenticationError,Authentication with the upstream service failed (invalid or expired credentials).,3.26
+exec_000026,WhatsApp Lead Intake,2026-09-11 20:00:22,success,,,4.87
+exec_000078,Invoice Parser,2026-09-11 21:41:34,success,,,18.99
+exec_000173,Customer Support Classifier,2026-09-12 01:01:52,failure,APITimeoutError,Request to external API timed out before completion.,7.03
+exec_000027,WhatsApp Lead Intake,2026-09-12 03:20:58,success,,,3.76
+exec_000125,CRM Synchronization,2026-09-12 03:58:52,success,,,2.01
+exec_000028,WhatsApp Lead Intake,2026-09-12 09:47:12,success,,,4.38
+exec_000174,Customer Support Classifier,2026-09-12 10:27:13,success,,,5.18
+exec_000079,Invoice Parser,2026-09-12 10:27:28,success,,,6.78
+exec_000126,CRM Synchronization,2026-09-12 15:05:30,success,,,3.18
+exec_000080,Invoice Parser,2026-09-12 18:08:04,success,,,6.88
+exec_000029,WhatsApp Lead Intake,2026-09-12 18:35:59,failure,APITimeoutError,Request to external API timed out before completion.,4.11
+exec_000175,Customer Support Classifier,2026-09-12 18:46:31,success,,,5.78
+exec_000127,CRM Synchronization,2026-09-12 20:47:58,success,,,2.03
+exec_000081,Invoice Parser,2026-09-13 03:01:55,success,,,6.34
+exec_000176,Customer Support Classifier,2026-09-13 05:32:21,success,,,6.79
+exec_000030,WhatsApp Lead Intake,2026-09-13 09:28:33,failure,APITimeoutError,Request to external API timed out before completion.,4.82
+exec_000177,Customer Support Classifier,2026-09-13 09:55:59,success,,,4.23
+exec_000128,CRM Synchronization,2026-09-13 10:45:04,success,,,3.71
+exec_000082,Invoice Parser,2026-09-13 14:21:56,success,,,9.9
+exec_000031,WhatsApp Lead Intake,2026-09-13 17:29:07,failure,APITimeoutError,Request to external API timed out before completion.,4.64
+exec_000129,CRM Synchronization,2026-09-13 18:20:36,success,,,3.0
+exec_000178,Customer Support Classifier,2026-09-13 22:10:21,success,,,11.37
+exec_000032,WhatsApp Lead Intake,2026-09-13 22:25:19,failure,APITimeoutError,Request to external API timed out before completion.,4.35
+exec_000083,Invoice Parser,2026-09-14 02:18:50,success,,,18.06
+exec_000084,Invoice Parser,2026-09-14 07:57:26,success,,,6.87
+exec_000179,Customer Support Classifier,2026-09-14 10:00:21,success,,,2.75
+exec_000130,CRM Synchronization,2026-09-14 10:40:21,success,,,4.2
+exec_000033,WhatsApp Lead Intake,2026-09-14 11:17:12,failure,APITimeoutError,Request to external API timed out before completion.,4.65
+exec_000180,Customer Support Classifier,2026-09-14 15:32:19,success,,,5.45
+exec_000131,CRM Synchronization,2026-09-14 17:07:58,failure,AuthenticationError,Authentication with the upstream service failed (invalid or expired credentials).,1.8
+exec_000034,WhatsApp Lead Intake,2026-09-14 17:27:18,failure,APITimeoutError,Request to external API timed out before completion.,4.48
+exec_000085,Invoice Parser,2026-09-14 19:54:52,success,,,7.86
+exec_000181,Customer Support Classifier,2026-09-14 23:02:04,success,,,5.34
+exec_000035,WhatsApp Lead Intake,2026-09-14 23:15:19,success,,,4.25
+exec_000086,Invoice Parser,2026-09-15 02:48:36,success,,,9.5
+exec_000132,CRM Synchronization,2026-09-15 06:00:32,success,,,3.22
+exec_000182,Customer Support Classifier,2026-09-15 09:22:12,success,,,4.09
+exec_000036,WhatsApp Lead Intake,2026-09-15 13:14:15,failure,APITimeoutError,Request to external API timed out before completion.,3.37
+exec_000133,CRM Synchronization,2026-09-15 14:59:55,success,,,4.09
+exec_000087,Invoice Parser,2026-09-15 16:08:07,success,,,18.94
+exec_000183,Customer Support Classifier,2026-09-15 18:40:33,success,,,12.38
+exec_000037,WhatsApp Lead Intake,2026-09-15 20:04:14,failure,APITimeoutError,Request to external API timed out before completion.,3.28
+exec_000088,Invoice Parser,2026-09-16 03:20:16,success,,,6.55
+exec_000184,Customer Support Classifier,2026-09-16 04:25:00,success,,,6.31
+exec_000134,CRM Synchronization,2026-09-16 06:19:35,success,,,1.96
+exec_000038,WhatsApp Lead Intake,2026-09-16 07:13:49,failure,APITimeoutError,Request to external API timed out before completion.,3.53
+exec_000089,Invoice Parser,2026-09-16 11:05:28,success,,,7.41
+exec_000039,WhatsApp Lead Intake,2026-09-16 14:11:15,failure,APITimeoutError,Request to external API timed out before completion.,4.5
+exec_000135,CRM Synchronization,2026-09-16 16:01:29,success,,,2.9
+exec_000185,Customer Support Classifier,2026-09-16 16:04:06,success,,,5.91
+exec_000090,Invoice Parser,2026-09-16 18:37:57,success,,,5.0
+exec_000040,WhatsApp Lead Intake,2026-09-16 18:49:46,failure,APITimeoutError,Request to external API timed out before completion.,3.75
+exec_000186,Customer Support Classifier,2026-09-16 19:44:16,success,,,3.51
+exec_000136,CRM Synchronization,2026-09-16 23:21:20,success,,,3.26
+exec_000187,Customer Support Classifier,2026-09-17 05:08:35,success,,,5.78
+exec_000041,WhatsApp Lead Intake,2026-09-17 07:14:51,failure,AuthenticationError,Authentication with the upstream service failed (invalid or expired credentials).,5.5
+exec_000091,Invoice Parser,2026-09-17 10:51:26,success,,,5.84
+exec_000137,CRM Synchronization,2026-09-17 13:40:44,failure,DuplicateRecordError,Record already exists; skipped to avoid duplicate processing.,2.68
+exec_000188,Customer Support Classifier,2026-09-17 15:29:25,success,,,11.66
+exec_000042,WhatsApp Lead Intake,2026-09-17 17:07:15,failure,AuthenticationError,Authentication with the upstream service failed (invalid or expired credentials).,3.18
+exec_000138,CRM Synchronization,2026-09-17 19:23:00,success,,,4.2
+exec_000092,Invoice Parser,2026-09-17 19:59:01,success,,,18.72
+exec_000189,Customer Support Classifier,2026-09-18 00:27:01,success,,,4.71
+exec_000043,WhatsApp Lead Intake,2026-09-18 02:37:49,success,,,4.78
+exec_000093,Invoice Parser,2026-09-18 06:25:18,success,,,6.86
+exec_000044,WhatsApp Lead Intake,2026-09-18 07:23:40,success,,,2.89
+exec_000139,CRM Synchronization,2026-09-18 08:46:10,success,,,1.8
+exec_000190,Customer Support Classifier,2026-09-18 10:25:21,success,,,2.78
+exec_000094,Invoice Parser,2026-09-18 11:04:20,success,,,8.83
+exec_000140,CRM Synchronization,2026-09-18 14:43:51,success,,,3.79
+exec_000045,WhatsApp Lead Intake,2026-09-18 17:30:05,success,,,4.57
+exec_000191,Customer Support Classifier,2026-09-18 18:48:53,success,,,5.68
+exec_000141,CRM Synchronization,2026-09-19 01:55:22,success,,,3.47
+exec_000046,WhatsApp Lead Intake,2026-09-19 03:25:53,success,,,2.5
+exec_000095,Invoice Parser,2026-09-19 03:48:05,success,,,10.39
+exec_000192,Customer Support Classifier,2026-09-19 03:57:52,success,,,4.93
+exec_000047,WhatsApp Lead Intake,2026-09-19 08:25:41,success,,,2.5
+exec_000096,Invoice Parser,2026-09-19 09:45:32,success,,,7.96
+exec_000142,CRM Synchronization,2026-09-19 12:37:33,success,,,4.2
+exec_000193,Customer Support Classifier,2026-09-19 16:53:46,success,,,3.88
+exec_000097,Invoice Parser,2026-09-19 17:14:03,success,,,8.52
+exec_000048,WhatsApp Lead Intake,2026-09-19 21:54:49,success,,,3.39
+exec_000143,CRM Synchronization,2026-09-20 01:37:53,success,,,3.57
+exec_000098,Invoice Parser,2026-09-20 04:10:21,success,,,8.34
+exec_000194,Customer Support Classifier,2026-09-20 04:15:42,success,,,5.78
+exec_000049,WhatsApp Lead Intake,2026-09-20 06:10:11,success,,,3.08
+exec_000050,WhatsApp Lead Intake,2026-09-20 09:47:41,success,,,4.88
+exec_000195,Customer Support Classifier,2026-09-20 11:23:34,success,,,5.73
+exec_000144,CRM Synchronization,2026-09-20 11:32:41,success,,,3.04
+exec_000099,Invoice Parser,2026-09-20 12:25:40,success,,,10.17
+exec_000145,CRM Synchronization,2026-09-20 20:15:59,success,,,2.58
+exec_000196,Customer Support Classifier,2026-09-20 20:40:40,success,,,4.13
+exec_000051,WhatsApp Lead Intake,2026-09-20 22:18:05,success,,,4.66
+exec_000100,Invoice Parser,2026-09-21 04:16:22,success,,,9.79
+exec_000052,WhatsApp Lead Intake,2026-09-21 05:28:10,success,,,2.78
+exec_000197,Customer Support Classifier,2026-09-21 06:32:16,success,,,5.6
+exec_000053,WhatsApp Lead Intake,2026-09-21 12:55:32,success,,,4.85
+exec_000146,CRM Synchronization,2026-09-21 13:14:22,success,,,2.0
+exec_000101,Invoice Parser,2026-09-21 15:23:00,success,,,8.55
+exec_000198,Customer Support Classifier,2026-09-21 15:45:47,success,,,6.52
+exec_000147,CRM Synchronization,2026-09-21 20:02:58,success,,,3.16
+exec_000199,Customer Support Classifier,2026-09-21 23:38:02,success,,,3.93
+exec_000054,WhatsApp Lead Intake,2026-09-22 00:34:28,success,,,3.0
+exec_000102,Invoice Parser,2026-09-22 01:05:23,success,,,5.98
+exec_000148,CRM Synchronization,2026-09-22 03:20:59,success,,,2.85
+exec_000103,Invoice Parser,2026-09-22 09:31:34,success,,,9.81
+exec_000200,Customer Support Classifier,2026-09-22 11:45:01,success,,,5.57
+exec_000055,WhatsApp Lead Intake,2026-09-22 11:50:53,success,,,3.91

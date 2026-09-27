@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.streamlit/secrets.toml
+
+# Screenshot/scratch output — not part of the app itself
+portfolio_screenshots/
+
+# Streamlit CLI agent-skill symlinks (environment-specific)
+.agents/skills/developing-with-streamlit
+.claude/skills/developing-with-streamlit

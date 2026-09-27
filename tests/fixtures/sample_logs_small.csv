@@ -1,0 +1,11 @@
+execution_id,workflow_name,start_time,status,duration_seconds,error_type,error_message
+exec_1,WF_A,2026-01-01 10:00:00,success,5.0,,
+exec_2,WF_A,2026-01-01 10:05:00,success,6.0,,
+exec_3,WF_A,2026-01-01 10:10:00,failure,4.0,TimeoutError,timeout occurred
+exec_4,WF_A,2026-01-01 10:15:00,success,5.5,,
+exec_2,WF_A,2026-01-01 10:20:00,success,5.0,,
+exec_6,WF_A,not-a-date,success,5.0,,
+exec_7,WF_A,2026-01-01 10:30:00,success,-3.0,,
+exec_8,WF_A,2026-01-01 10:35:00,weird_status,5.0,,
+exec_9,WF_A,2026-01-01 10:40:00,success,5.0,,
+exec_10,WF_A,2026-01-01 10:45:00,failure,4.5,TimeoutError,timeout again

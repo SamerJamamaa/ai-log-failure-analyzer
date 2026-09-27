@@ -1,0 +1,365 @@
+{
+  "01_healthy_baseline.json": {
+    "file": "01_healthy_baseline.json",
+    "validation": {
+      "ok": true,
+      "total_rows": 78,
+      "valid_rows": 78,
+      "rejected_rows": 0
+    },
+    "total_executions": 78,
+    "total_failures": 3,
+    "exception_group_count": 3,
+    "exception_groups": [
+      {
+        "fingerprint": "6aa706914238",
+        "primary_category": "Internal application error",
+        "secondary_category": "Internal HTTP 500",
+        "error_type": "TRANSIENT_ERROR",
+        "workflow_name": "WhatsApp Lead Intake",
+        "service": "messaging-service",
+        "http_status": 500,
+        "occurrence_count": 1,
+        "affected_execution_count": 1,
+        "percentage_of_all_failures": 33.3,
+        "percentage_of_workflow_executions": 3.8,
+        "trend_label": "isolated",
+        "application_versions": [
+          "4.2.0"
+        ],
+        "priority_score": 13.6,
+        "priority_label": "Low"
+      },
+      {
+        "fingerprint": "becc6be48905",
+        "primary_category": "Internal application error",
+        "secondary_category": "Internal HTTP 500",
+        "error_type": "TRANSIENT_ERROR",
+        "workflow_name": "CRM Synchronization",
+        "service": "crm-sync-service",
+        "http_status": 500,
+        "occurrence_count": 1,
+        "affected_execution_count": 1,
+        "percentage_of_all_failures": 33.3,
+        "percentage_of_workflow_executions": 3.8,
+        "trend_label": "isolated",
+        "application_versions": [
+          "3.4.0"
+        ],
+        "priority_score": 13.6,
+        "priority_label": "Low"
+      },
+      {
+        "fingerprint": "fedb4a85d880",
+        "primary_category": "Internal application error",
+        "secondary_category": "Internal HTTP 500",
+        "error_type": "TRANSIENT_ERROR",
+        "workflow_name": "Invoice Parser",
+        "service": "invoice-extraction-service",
+        "http_status": 500,
+        "occurrence_count": 1,
+        "affected_execution_count": 1,
+        "percentage_of_all_failures": 33.3,
+        "percentage_of_workflow_executions": 3.8,
+        "trend_label": "isolated",
+        "application_versions": [
+          "2.1.0"
+        ],
+        "priority_score": 13.6,
+        "priority_label": "Low"
+      }
+    ]
+  },
+  "02_whatsapp_provider_timeouts.json": {
+    "file": "02_whatsapp_provider_timeouts.json",
+    "validation": {
+      "ok": true,
+      "total_rows": 80,
+      "valid_rows": 80,
+      "rejected_rows": 0
+    },
+    "total_executions": 80,
+    "total_failures": 14,
+    "exception_group_count": 1,
+    "exception_groups": [
+      {
+        "fingerprint": "6fa29fbc3bec",
+        "primary_category": "Timeout and latency",
+        "secondary_category": "Gateway timeout",
+        "error_type": "GATEWAY_TIMEOUT",
+        "workflow_name": "WhatsApp Lead Intake",
+        "service": "messaging-service",
+        "http_status": 504,
+        "occurrence_count": 14,
+        "affected_execution_count": 14,
+        "percentage_of_all_failures": 100.0,
+        "percentage_of_workflow_executions": 17.5,
+        "trend_label": "recurring",
+        "application_versions": [
+          "4.5.0"
+        ],
+        "priority_score": 70.2,
+        "priority_label": "Critical"
+      }
+    ]
+  },
+  "03_crm_authentication_regression.json": {
+    "file": "03_crm_authentication_regression.json",
+    "validation": {
+      "ok": true,
+      "total_rows": 40,
+      "valid_rows": 40,
+      "rejected_rows": 0
+    },
+    "total_executions": 40,
+    "total_failures": 8,
+    "exception_group_count": 1,
+    "exception_groups": [
+      {
+        "fingerprint": "f9c34fc69026",
+        "primary_category": "Authentication and authorization",
+        "secondary_category": "Invalid or expired token",
+        "error_type": "AUTHENTICATION_ERROR",
+        "workflow_name": "CRM Synchronization",
+        "service": "crm-sync-service",
+        "http_status": 401,
+        "occurrence_count": 8,
+        "affected_execution_count": 8,
+        "percentage_of_all_failures": 100.0,
+        "percentage_of_workflow_executions": 20.0,
+        "trend_label": "recurring",
+        "application_versions": [
+          "3.5.0"
+        ],
+        "priority_score": 41.0,
+        "priority_label": "Medium"
+      }
+    ]
+  },
+  "04_invoice_schema_failures.json": {
+    "file": "04_invoice_schema_failures.json",
+    "validation": {
+      "ok": true,
+      "total_rows": 70,
+      "valid_rows": 70,
+      "rejected_rows": 0
+    },
+    "total_executions": 70,
+    "total_failures": 12,
+    "exception_group_count": 3,
+    "exception_groups": [
+      {
+        "fingerprint": "d708fcecf721",
+        "primary_category": "Input and validation",
+        "secondary_category": "Missing required field",
+        "error_type": "MISSING_REQUIRED_FIELD",
+        "workflow_name": "Invoice Parser",
+        "service": "invoice-extraction-service",
+        "http_status": null,
+        "occurrence_count": 5,
+        "affected_execution_count": 5,
+        "percentage_of_all_failures": 41.7,
+        "percentage_of_workflow_executions": 7.1,
+        "trend_label": "recurring",
+        "application_versions": [
+          "2.3.0"
+        ],
+        "priority_score": 24.6,
+        "priority_label": "Medium"
+      },
+      {
+        "fingerprint": "94f16f99fe80",
+        "primary_category": "AI and structured-output",
+        "secondary_category": "Invalid JSON",
+        "error_type": "INVALID_JSON_SCHEMA",
+        "workflow_name": "Invoice Parser",
+        "service": "invoice-extraction-service",
+        "http_status": null,
+        "occurrence_count": 4,
+        "affected_execution_count": 4,
+        "percentage_of_all_failures": 33.3,
+        "percentage_of_workflow_executions": 5.7,
+        "trend_label": "recurring",
+        "application_versions": [
+          "2.3.0"
+        ],
+        "priority_score": 21.7,
+        "priority_label": "Medium"
+      },
+      {
+        "fingerprint": "021673742b61",
+        "primary_category": "AI and structured-output",
+        "secondary_category": "Type mismatch",
+        "error_type": "TYPE_MISMATCH",
+        "workflow_name": "Invoice Parser",
+        "service": "invoice-extraction-service",
+        "http_status": null,
+        "occurrence_count": 3,
+        "affected_execution_count": 3,
+        "percentage_of_all_failures": 25.0,
+        "percentage_of_workflow_executions": 4.3,
+        "trend_label": "recurring",
+        "application_versions": [
+          "2.3.0"
+        ],
+        "priority_score": 18.8,
+        "priority_label": "Low"
+      }
+    ]
+  },
+  "05_crm_duplicate_records.json": {
+    "file": "05_crm_duplicate_records.json",
+    "validation": {
+      "ok": true,
+      "total_rows": 36,
+      "valid_rows": 36,
+      "rejected_rows": 0
+    },
+    "total_executions": 36,
+    "total_failures": 6,
+    "exception_group_count": 1,
+    "exception_groups": [
+      {
+        "fingerprint": "250bd1c689a1",
+        "primary_category": "Data integrity and persistence",
+        "secondary_category": "Duplicate record",
+        "error_type": "DUPLICATE_RECORD",
+        "workflow_name": "CRM Synchronization",
+        "service": "crm-sync-service",
+        "http_status": 409,
+        "occurrence_count": 6,
+        "affected_execution_count": 6,
+        "percentage_of_all_failures": 100.0,
+        "percentage_of_workflow_executions": 16.7,
+        "trend_label": "recurring",
+        "application_versions": [
+          "3.5.0"
+        ],
+        "priority_score": 45.0,
+        "priority_label": "High"
+      }
+    ]
+  },
+  "06_slow_successful_executions.json": {
+    "file": "06_slow_successful_executions.json",
+    "validation": {
+      "ok": true,
+      "total_rows": 60,
+      "valid_rows": 60,
+      "rejected_rows": 0
+    },
+    "total_executions": 60,
+    "total_failures": 0,
+    "exception_group_count": 0,
+    "exception_groups": []
+  },
+  "07_mixed_production_incident.json": {
+    "file": "07_mixed_production_incident.json",
+    "validation": {
+      "ok": true,
+      "total_rows": 132,
+      "valid_rows": 132,
+      "rejected_rows": 0
+    },
+    "total_executions": 132,
+    "total_failures": 34,
+    "exception_group_count": 5,
+    "exception_groups": [
+      {
+        "fingerprint": "6fa29fbc3bec",
+        "primary_category": "Timeout and latency",
+        "secondary_category": "Gateway timeout",
+        "error_type": "GATEWAY_TIMEOUT",
+        "workflow_name": "WhatsApp Lead Intake",
+        "service": "messaging-service",
+        "http_status": 504,
+        "occurrence_count": 14,
+        "affected_execution_count": 14,
+        "percentage_of_all_failures": 41.2,
+        "percentage_of_workflow_executions": 35.0,
+        "trend_label": "recurring",
+        "application_versions": [
+          "4.5.0"
+        ],
+        "priority_score": 75.5,
+        "priority_label": "Critical"
+      },
+      {
+        "fingerprint": "f9c34fc69026",
+        "primary_category": "Authentication and authorization",
+        "secondary_category": "Invalid or expired token",
+        "error_type": "AUTHENTICATION_ERROR",
+        "workflow_name": "CRM Synchronization",
+        "service": "crm-sync-service",
+        "http_status": 401,
+        "occurrence_count": 8,
+        "affected_execution_count": 8,
+        "percentage_of_all_failures": 23.5,
+        "percentage_of_workflow_executions": 20.0,
+        "trend_label": "recurring",
+        "application_versions": [
+          "3.5.0"
+        ],
+        "priority_score": 35.3,
+        "priority_label": "Medium"
+      },
+      {
+        "fingerprint": "d708fcecf721",
+        "primary_category": "Input and validation",
+        "secondary_category": "Missing required field",
+        "error_type": "MISSING_REQUIRED_FIELD",
+        "workflow_name": "Invoice Parser",
+        "service": "invoice-extraction-service",
+        "http_status": null,
+        "occurrence_count": 5,
+        "affected_execution_count": 5,
+        "percentage_of_all_failures": 14.7,
+        "percentage_of_workflow_executions": 41.7,
+        "trend_label": "recurring",
+        "application_versions": [
+          "2.3.0"
+        ],
+        "priority_score": 31.4,
+        "priority_label": "Medium"
+      },
+      {
+        "fingerprint": "94f16f99fe80",
+        "primary_category": "AI and structured-output",
+        "secondary_category": "Invalid JSON",
+        "error_type": "INVALID_JSON_SCHEMA",
+        "workflow_name": "Invoice Parser",
+        "service": "invoice-extraction-service",
+        "http_status": null,
+        "occurrence_count": 4,
+        "affected_execution_count": 4,
+        "percentage_of_all_failures": 11.8,
+        "percentage_of_workflow_executions": 33.3,
+        "trend_label": "recurring",
+        "application_versions": [
+          "2.3.0"
+        ],
+        "priority_score": 27.1,
+        "priority_label": "Medium"
+      },
+      {
+        "fingerprint": "021673742b61",
+        "primary_category": "AI and structured-output",
+        "secondary_category": "Type mismatch",
+        "error_type": "TYPE_MISMATCH",
+        "workflow_name": "Invoice Parser",
+        "service": "invoice-extraction-service",
+        "http_status": null,
+        "occurrence_count": 3,
+        "affected_execution_count": 3,
+        "percentage_of_all_failures": 8.8,
+        "percentage_of_workflow_executions": 25.0,
+        "trend_label": "recurring",
+        "application_versions": [
+          "2.3.0"
+        ],
+        "priority_score": 22.9,
+        "priority_label": "Medium"
+      }
+    ]
+  }
+}
